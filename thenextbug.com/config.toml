@@ -1,0 +1,14 @@
+baseURL = "http://thenextbug.com/"
+languageCode = "en-us"
+title = "The Next Bug"
+theme = "Hermit"
+
+[params]
+  homeSubtitle = "There's always another  one waiting around the corner."
+
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/The-Next-Bug"
+
