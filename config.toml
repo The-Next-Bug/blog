@@ -1,4 +1,4 @@
-baseURL = "http://thenextbug.com/"
+baseURL = "https://thenextbug.com/"
 languageCode = "en-us"
 title = "The Next Bug"
 theme = "hermit"
