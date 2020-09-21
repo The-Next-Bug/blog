@@ -1,7 +1,7 @@
 baseURL = "http://thenextbug.com/"
 languageCode = "en-us"
 title = "The Next Bug"
-theme = "Hermit"
+theme = "hermit"
 
 [params]
   homeSubtitle = "There's always another  one waiting around the corner."
