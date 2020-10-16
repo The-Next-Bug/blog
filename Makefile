@@ -1,11 +1,12 @@
 
 IMAGE=registry.digitalocean.com/shelf/the-next-bug
 BUILD_FLAGS=--rm
+NOW := $(shell date -u '+%Y-%m-%dT%H-%M-%Sz')
 
 all: build
 
 build:
-	docker build $(BUILD_FLAGS) --tag $(IMAGE) .
+	docker build $(BUILD_FLAGS) --tag $(IMAGE) --tag $(IMAGE):$(NOW) .
 
 push: build
 	docker push $(IMAGE)
