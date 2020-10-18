@@ -30,7 +30,8 @@ googleAnalytics = "UA-28271605-5"
   themeColor = "#494f5c"
 
   homeSubtitle = "There's always another  one waiting around the corner."
-  footerCopyright = ' &#183; <a href="x"https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> '
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> '
+  customCSS = [ "css/extra.css" ]
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
