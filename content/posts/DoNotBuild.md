@@ -1,7 +1,7 @@
 ---
 title: "A Blog Stack No One Should Build pt. 1 of ?"
 date: 2020-10-18T10:36:24-05:00
-draft: true
+draft: false
 toc: true
 images:
 tags: 
