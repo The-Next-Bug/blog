@@ -198,4 +198,3 @@ in [Namecheap](https://www.namecheap.com/) and playing with DO's DNS offering to
 manage the actual domains. Since I've already burned enough time on a Sunday afternoon writing 
 this up, I'll save that for next post.
 
-Chris S.
