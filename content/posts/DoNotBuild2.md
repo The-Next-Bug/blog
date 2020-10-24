@@ -1,7 +1,7 @@
 ---
 title: "A Blog Stack No One Should Build pt. 2 of ?"
 date: 2020-10-19T05:35:31-05:00
-publishDate: 2020-10-25
+publishDate: 2020-10-23
 draft: false
 toc: false
 images:
