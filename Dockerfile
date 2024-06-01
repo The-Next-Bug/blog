@@ -1,4 +1,4 @@
-FROM klakegg/hugo:onbuild AS hugo
+FROM floryn90/hugo:0.126.2-ext-onbuild AS hugo
 
 FROM nginx
 

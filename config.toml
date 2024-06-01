@@ -1,12 +1,12 @@
 baseURL = "https://thenextbug.com/"
+#baseURL = ""
 languageCode = "en-us"
 title = "The Next Bug"
-theme = "hermit"
+theme = "hermit-V2"
 
-googleAnalytics = "UA-28271605-5"
+googleAnalytics = "G-CZ0K1ZVCJ2"
 
-[author]
-  name = "Chris Salch"
+
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -17,6 +17,9 @@ googleAnalytics = "UA-28271605-5"
   tag = "tags"
   # Categories are disabled by default.
 
+
+[params.author]
+  name = "Chris Salch"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -30,8 +33,7 @@ googleAnalytics = "UA-28271605-5"
   themeColor = "#494f5c"
 
   homeSubtitle = "There's always another  one waiting around the corner."
-  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> '
-  customCSS = [ "css/extra.css" ]
+  footerCopyright = '<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -40,16 +42,19 @@ googleAnalytics = "UA-28271605-5"
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.
 
+  custom_css = [ "css/extra.css" ]
+
   relatedPosts = false  # Add a related content section to all single posts page
 
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
 
+
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
-  [[params.social]]
+  [[params.socialLinks]]
     name = "github"
     url = "https://github.com/The-Next-Bug"
-  [[params.social]]
+  [[params.socialLinks]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/chris-salch-94a6784/"
 
