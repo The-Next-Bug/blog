@@ -1,0 +1,50 @@
+[
+  {
+    "no": "No.",
+    "reason": "The meeting could have been an email, the email could have been a comment, and the comment could have been better variable names."
+  },
+  {
+    "no": "No.",
+    "reason": "Rewriting it in Rust will not make it faster if the bottleneck is a database query that returns ten thousand rows you then sort in memory."
+  },
+  {
+    "no": "No.",
+    "reason": "That is not a bug fix. That is a load-bearing workaround with a comment saying 'TODO: fix properly' from four years ago."
+  },
+  {
+    "no": "No.",
+    "reason": "Merging on Friday afternoon does not count as a deployment strategy."
+  },
+  {
+    "no": "No.",
+    "reason": "The correct number of microservices is not 'one per database column.'"
+  },
+  {
+    "no": "No.",
+    "reason": "Disabling the failing test is not the same as fixing the thing the test was testing."
+  },
+  {
+    "no": "No.",
+    "reason": "Adding more logging is not a substitute for understanding what the code is supposed to do."
+  },
+  {
+    "no": "No.",
+    "reason": "The abstraction is not worth it until you actually need it the second time, and even then you should wait for the third."
+  },
+  {
+    "no": "No.",
+    "reason": "Storing passwords in plaintext is not a performance optimization."
+  },
+  {
+    "no": "No.",
+    "reason": "That is a regex. It will not be 'quick to update later.'"
+  },
+  {
+    "no": "No.",
+    "reason": "If it only works on your machine, the correct answer is to fix the code, not to ship your machine."
+  },
+  {
+    "no": "No.",
+    "reason": "A ten-thousand-line file is not 'well-organized.' It is a warning."
+  }
+]

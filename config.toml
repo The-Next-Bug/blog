@@ -69,3 +69,8 @@ googleAnalytics = "G-CZ0K1ZVCJ2"
     url = "about/"
     weight = 20
 
+  [[menu.main]]
+    name = "Say No"
+    url = "no/"
+    weight = 99 
+
