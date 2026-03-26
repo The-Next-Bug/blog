@@ -4,47 +4,3999 @@
     "reason": "The meeting could have been an email, the email could have been a comment, and the comment could have been better variable names."
   },
   {
-    "no": "No.",
+    "no": "Nope.",
     "reason": "Rewriting it in Rust will not make it faster if the bottleneck is a database query that returns ten thousand rows you then sort in memory."
   },
   {
-    "no": "No.",
+    "no": "Nah.",
     "reason": "That is not a bug fix. That is a load-bearing workaround with a comment saying 'TODO: fix properly' from four years ago."
   },
   {
-    "no": "No.",
+    "no": "Nay.",
     "reason": "Merging on Friday afternoon does not count as a deployment strategy."
   },
   {
-    "no": "No.",
+    "no": "Never.",
     "reason": "The correct number of microservices is not 'one per database column.'"
   },
   {
-    "no": "No.",
+    "no": "No way.",
     "reason": "Disabling the failing test is not the same as fixing the thing the test was testing."
   },
   {
-    "no": "No.",
+    "no": "Not a chance.",
     "reason": "Adding more logging is not a substitute for understanding what the code is supposed to do."
   },
   {
-    "no": "No.",
+    "no": "Absolutely not.",
     "reason": "The abstraction is not worth it until you actually need it the second time, and even then you should wait for the third."
   },
   {
-    "no": "No.",
+    "no": "Definitely not.",
     "reason": "Storing passwords in plaintext is not a performance optimization."
   },
   {
-    "no": "No.",
+    "no": "Certainly not.",
     "reason": "That is a regex. It will not be 'quick to update later.'"
   },
   {
-    "no": "No.",
+    "no": "Not happening.",
     "reason": "If it only works on your machine, the correct answer is to fix the code, not to ship your machine."
   },
   {
-    "no": "No.",
+    "no": "No chance.",
     "reason": "A ten-thousand-line file is not 'well-organized.' It is a warning."
+  },
+  {
+    "no": "No thank you.",
+    "reason": "Renaming the variable to 'temp2' does not count as refactoring."
+  },
+  {
+    "no": "Hard no.",
+    "reason": "The sprint velocity going up does not mean the team is moving faster. It means estimates are getting looser."
+  },
+  {
+    "no": "Negative.",
+    "reason": "Commenting out the validation instead of fixing it is not a hotfix. It is an incident report waiting to happen."
+  },
+  {
+    "no": "Negatory.",
+    "reason": "A cache is not a substitute for a performant query."
+  },
+  {
+    "no": "No dice.",
+    "reason": "The correct response to 'it works in staging' is not 'ship it.' Staging is not production. Nothing is production except production."
+  },
+  {
+    "no": "No go.",
+    "reason": "Using a spreadsheet as a database is only acceptable once, briefly, at the very beginning, and we are past that point."
+  },
+  {
+    "no": "No deal.",
+    "reason": "Adding a feature flag does not make the code less complex. It makes it doubly complex for as long as the flag exists, which will be forever."
+  },
+  {
+    "no": "No can do.",
+    "reason": "The architecture diagram is not documentation. It is a map of how things were six months ago before anyone updated it."
+  },
+  {
+    "no": "Not today.",
+    "reason": "Running the migration on the production database without a rollback plan is a story that ends with someone's weekend ruined."
+  },
+  {
+    "no": "No siree.",
+    "reason": "Calling it a 'temporary fix' does not make it temporary. Temporary is a state of mind, and that code has been there for three years."
+  },
+  {
+    "no": "Hell no.",
+    "reason": "Incrementing the version number is not the same as completing a release."
+  },
+  {
+    "no": "Not likely.",
+    "reason": "'Move fast and break things' is not a philosophy for systems that other people depend on."
+  },
+  {
+    "no": "No shot.",
+    "reason": "An API that requires reading the source code to understand is not an API. It is a puzzle."
+  },
+  {
+    "no": "No joy.",
+    "reason": "Making it asynchronous does not solve the race condition. It makes the race condition harder to reproduce and impossible to explain."
+  },
+  {
+    "no": "Nyet.",
+    "reason": "Deploying without monitoring is not confidence. It is optimism with consequences."
+  },
+  {
+    "no": "Non.",
+    "reason": "The documentation that says 'see the code' is not documentation. It is an invitation to reverse-engineer someone else's decisions."
+  },
+  {
+    "no": "Nein.",
+    "reason": "A microservice that can only be understood by the person who wrote it is not a microservice. It is a hostage situation."
+  },
+  {
+    "no": "Nee.",
+    "reason": "The linter rule exists for a reason. Disabling it with a comment explaining why it does not apply here is exactly the situation it was designed for."
+  },
+  {
+    "no": "Nei.",
+    "reason": "Using production data in development is not a shortcut. It is a liability."
+  },
+  {
+    "no": "Nej.",
+    "reason": "If the onboarding process requires a week and three senior engineers, the onboarding process is the problem."
+  },
+  {
+    "no": "Ne.",
+    "reason": "The tech debt is not being paid down. It is being refinanced at a higher interest rate."
+  },
+  {
+    "no": "Hayir.",
+    "reason": "Code review is not a formality. It is the last checkpoint before a decision becomes permanent."
+  },
+  {
+    "no": "La.",
+    "reason": "Parsing HTML with regex is not creative problem-solving. It is a war crime."
+  },
+  {
+    "no": "Nao.",
+    "reason": "The correct answer to 'should we add another parameter to this function?' is to look at the function and ask why it already has nine."
+  },
+  {
+    "no": "Nahi.",
+    "reason": "Null is not a valid response to a question that has an answer. It is a decision to have the crash happen somewhere else."
+  },
+  {
+    "no": "Iie.",
+    "reason": "An exception caught and swallowed is not error handling. It is denial."
+  },
+  {
+    "no": "Anio.",
+    "reason": "The config file is not the place to put business logic. Nothing is the place to put business logic except the place where business logic already lives."
+  },
+  {
+    "no": "Nem.",
+    "reason": "If fixing the bug requires understanding all the other bugs first, the architecture has failed."
+  },
+  {
+    "no": "Nu.",
+    "reason": "A pull request with no description is a pull request asking someone else to reconstruct your reasoning from scratch."
+  },
+  {
+    "no": "Yok.",
+    "reason": "Every shortcut in the codebase was taken by someone who no longer works here."
+  },
+  {
+    "no": "Hapana.",
+    "reason": "The deadline does not change the complexity. The deadline changes how much of the complexity gets discovered later."
+  },
+  {
+    "no": "Wala.",
+    "reason": "Copying code between services instead of extracting a library is how you end up maintaining twelve slightly different versions of the same bug."
+  },
+  {
+    "no": "Nahin.",
+    "reason": "If the system requires a specific person to restart it, that person is not an engineer. They are a single point of failure with a job title."
+  },
+  {
+    "no": "A'ole.",
+    "reason": "Hardcoding the environment variable is not 'just for now.' Just for now lasts until someone deploys to the wrong environment at two in the morning."
+  },
+  {
+    "no": "Yo'q.",
+    "reason": "The test suite that takes forty-five minutes to run is not a safety net. It is an obstacle that everyone is actively working around."
+  },
+  {
+    "no": "Ara.",
+    "reason": "An error message that says 'something went wrong' tells the user nothing and the engineer nothing and helps no one."
+  },
+  {
+    "no": "Pass.",
+    "reason": "The senior engineer saying 'that's fine for now' is not approval. It is someone with too much on their plate and too little time to explain why it is not fine."
+  },
+  {
+    "no": "Hard pass.",
+    "reason": "If the only person who knows how the billing system works is on vacation, the billing system is not production-ready."
+  },
+  {
+    "no": "Count me out.",
+    "reason": "Storing state in a global variable works right up until the moment it stops working, and when it stops working you will not know why."
+  },
+  {
+    "no": "Leave me out.",
+    "reason": "The meeting scheduled for Friday at four-thirty is not a meeting. It is a message about how someone prioritizes other people's time."
+  },
+  {
+    "no": "Not for me.",
+    "reason": "A service that requires its dependencies to be up in a specific order is not a distributed system. It is a distributed single point of failure."
+  },
+  {
+    "no": "Not my thing.",
+    "reason": "Every time you use sleep() to fix a timing issue, a race condition somewhere in the universe gets its wings."
+  },
+  {
+    "no": "Not interested.",
+    "reason": "The retrospective that ends with 'let's do better next time' and no action items is not a retrospective. It is group therapy with a kanban board."
+  },
+  {
+    "no": "No bueno.",
+    "reason": "Adding a second database to solve a problem created by the first database is not scaling. It is multiplication."
+  },
+  {
+    "no": "Nada.",
+    "reason": "If the health check endpoint just returns 200, it is not a health check. It is proof that the process has not crashed yet."
+  },
+  {
+    "no": "Nix.",
+    "reason": "The boolean flag that flips behavior completely is not a feature. It is two features living in the same function pretending to be one."
+  },
+  {
+    "no": "Denied.",
+    "reason": "Rewriting from scratch is always tempting and almost never faster than fixing what exists."
+  },
+  {
+    "no": "Rejected.",
+    "reason": "A commit message that says 'fix stuff' does not help future-you, past-you, or any other version of you."
+  },
+  {
+    "no": "Declined.",
+    "reason": "The schema migration that cannot be rolled back is not a migration. It is a one-way door."
+  },
+  {
+    "no": "Vetoed.",
+    "reason": "Pinning a dependency to an exact version and never updating it is not stability. It is debt accumulating quietly."
+  },
+  {
+    "no": "Blocked.",
+    "reason": "An infinite loop with a break condition that is never met is not a feature. It is a memory leak with ambition."
+  },
+  {
+    "no": "Abstained.",
+    "reason": "If you need a diagram to explain why the system needs five more steps before it can do the thing it was built to do, simplify the system."
+  },
+  {
+    "no": "Objected.",
+    "reason": "The 'quick sync' that starts at nine and ends at eleven was neither quick nor a sync."
+  },
+  {
+    "no": "Not a hope.",
+    "reason": "Using the primary key as a display identifier is fine until the business decides to merge two accounts, and then it is a crisis."
+  },
+  {
+    "no": "Not a prayer.",
+    "reason": "The bash script that has been running in production for seven years is not technical debt. It is load-bearing folklore."
+  },
+  {
+    "no": "Fat chance.",
+    "reason": "If the system works correctly only when no one uses it, it does not work correctly."
+  },
+  {
+    "no": "When pigs fly.",
+    "reason": "Deploying directly to the main branch because 'it's just a small change' is how small changes become large incidents."
+  },
+  {
+    "no": "I think not.",
+    "reason": "The password requirements that force people to write them on sticky notes are not security requirements. They are a social engineering manual."
+  },
+  {
+    "no": "I'd rather not.",
+    "reason": "An API versioned with a date from three years ago is a promise to maintain compatibility that someone else made and you have to keep."
+  },
+  {
+    "no": "I will not.",
+    "reason": "The standup that goes around the room asking everyone what they did yesterday is not agile. It is status reporting with worse chairs."
+  },
+  {
+    "no": "I won't.",
+    "reason": "Squashing all commits before merging removes the history of why decisions were made, which is the only part of history worth keeping."
+  },
+  {
+    "no": "I shan't.",
+    "reason": "If the code works but no one on the team can explain why, it will break in a way no one on the team can explain either."
+  },
+  {
+    "no": "I don't think so.",
+    "reason": "The ticket marked 'low priority' from eighteen months ago is not low priority. It is a decision to let the problem compound."
+  },
+  {
+    "no": "I must decline.",
+    "reason": "An ORM is not a replacement for knowing SQL. It is a layer of abstraction that generates SQL you still need to understand."
+  },
+  {
+    "no": "I respectfully decline.",
+    "reason": "The dashboard that refreshes every five seconds does not mean you are monitoring the system. It means you have created a polling loop and called it observability."
+  },
+  {
+    "no": "I politely decline.",
+    "reason": "If the only way to know the system is healthy is to watch it, you have not built a monitoring system. You have built a job."
+  },
+  {
+    "no": "I firmly decline.",
+    "reason": "Shipping a feature before it is tested is not moving fast. It is borrowing time from the support queue."
+  },
+  {
+    "no": "Thanks but no thanks.",
+    "reason": "The staging environment that does not match production is not a staging environment. It is a false sense of security with its own URL."
+  },
+  {
+    "no": "No way no how.",
+    "reason": "If the error only appears once a week on one machine, it is still a bug. It is just a patient bug."
+  },
+  {
+    "no": "No way Jose.",
+    "reason": "Catching all exceptions at the top level and logging them is not fault tolerance. It is evidence collection."
+  },
+  {
+    "no": "Not on your life.",
+    "reason": "The function named 'doThing' has no future."
+  },
+  {
+    "no": "Not in a million years.",
+    "reason": "Using UTC everywhere is not a preference. It is a basic respect for the person who has to debug the date logic at three in the morning."
+  },
+  {
+    "no": "Not on your nelly.",
+    "reason": "The build that only succeeds on the CI server because of an environment variable set by hand six months ago is not a reproducible build."
+  },
+  {
+    "no": "Over my dead body.",
+    "reason": "Tracking hours is not measuring productivity. It is measuring the number of hours tracked."
+  },
+  {
+    "no": "Not on my watch.",
+    "reason": "A retrospective that identifies the same issues as the last three retrospectives is not a feedback loop. It is a loop."
+  },
+  {
+    "no": "Positively not.",
+    "reason": "Shipping the MVP that cannot handle ten users does not validate the product. It validates that the product can be built, which was never the question."
+  },
+  {
+    "no": "Emphatically not.",
+    "reason": "The incident postmortem that blames a person instead of a process is not a postmortem. It is a performance review with higher stakes."
+  },
+  {
+    "no": "Categorically not.",
+    "reason": "If the code review takes longer than writing the code, the code was not ready for review."
+  },
+  {
+    "no": "Unequivocally not.",
+    "reason": "The notification that fires for every row in the table is not a notification system. It is spam with a database behind it."
+  },
+  {
+    "no": "Resolutely not.",
+    "reason": "Adding an abstraction layer before you have more than one implementation is building a bridge before you know where the river is."
+  },
+  {
+    "no": "Decidedly not.",
+    "reason": "If the team only ships on Tuesdays because releases on other days have historically gone badly, the release process needs fixing, not the calendar."
+  },
+  {
+    "no": "Vehemently no.",
+    "reason": "The code that was copy-pasted from Stack Overflow without being read is not a solution. It is a dependency on a stranger's understanding of a different problem."
+  },
+  {
+    "no": "Explicitly no.",
+    "reason": "A roadmap that changes every quarter is not a roadmap. It is a wish list with a timeline column."
+  },
+  {
+    "no": "Expressly no.",
+    "reason": "The test that mocks the database, the network, and the file system is not testing the application. It is testing the mocks."
+  },
+  {
+    "no": "No chance in hell.",
+    "reason": "If the service mesh is more complex than the services it connects, the architecture has become the problem."
+  },
+  {
+    "no": "I'll pass.",
+    "reason": "Logging at INFO level in production until the disk fills up is not observability. It is a storage crisis in slow motion."
+  },
+  {
+    "no": "Nothing doing.",
+    "reason": "The configuration that lives in twelve different places is not flexible. It is twelve places to forget to update."
+  },
+  {
+    "no": "Forget it.",
+    "reason": "An alert that fires so often no one reads it is not monitoring. It is noise that has been relabeled as signal."
+  },
+  {
+    "no": "Forget about it.",
+    "reason": "The feature that requires three other features to be used correctly is not a feature. It is a dependency graph with a UI."
+  },
+  {
+    "no": "Dream on.",
+    "reason": "Using the issue tracker for decisions means the decisions are searchable. Decisions made in Slack are folklore."
+  },
+  {
+    "no": "Keep dreaming.",
+    "reason": "The database index that covers every column is not an optimization. It is a tax on every write."
+  },
+  {
+    "no": "Nice try.",
+    "reason": "If the deployment requires someone to SSH into the server, it is not automated. It is a script with extra steps."
+  },
+  {
+    "no": "Better luck next time.",
+    "reason": "The estimate that doubles every time someone asks for an update is a signal, not a schedule."
+  },
+  {
+    "no": "The answer is no.",
+    "reason": "An API that returns 200 for errors is not RESTful. It is confusing."
+  },
+  {
+    "no": "My answer is no.",
+    "reason": "Writing documentation after the fact is not documentation. It is archaeology."
+  },
+  {
+    "no": "The answer will always be no.",
+    "reason": "If you are the only person who can review certain PRs, you are a bottleneck wearing a title."
+  },
+  {
+    "no": "Out of the question.",
+    "reason": "The performance test that runs against five rows of data is not a performance test. It is a unit test with a different name."
+  },
+  {
+    "no": "Not negotiable.",
+    "reason": "Cron jobs that no one remembers adding and no one knows what they do are not automation. They are ticking unknowns."
+  },
+  {
+    "no": "Off limits.",
+    "reason": "The service that only one team understands is not a service. It is a silo with an HTTP interface."
+  },
+  {
+    "no": "Off the table.",
+    "reason": "If the team is too busy to fix bugs, the team is too busy. The bugs do not care."
+  },
+  {
+    "no": "Not on the agenda.",
+    "reason": "The sprint that contains seventy points of work is not ambitious. It is optimistic in a way that will become a conversation later."
+  },
+  {
+    "no": "Beyond consideration.",
+    "reason": "An environment variable named THING_ENABLED set to false for reasons no one can explain is not configuration. It is archaeology waiting to happen."
+  },
+  {
+    "no": "Not within my remit.",
+    "reason": "If the on-call rotation has one person, that person does not have a rotation. They have a sentence."
+  },
+  {
+    "no": "Outside my mandate.",
+    "reason": "The code that works until someone else touches it is not stable. It is fragile and waiting."
+  },
+  {
+    "no": "Not in the cards.",
+    "reason": "An architecture decision that cannot be explained to a new hire in ten minutes was probably not made clearly enough to begin with."
+  },
+  {
+    "no": "Not in the stars.",
+    "reason": "Saying 'we'll deal with it at scale' when you are not at scale is not a plan. It is a problem deferred."
+  },
+  {
+    "no": "Zero chance.",
+    "reason": "The merge conflict that was resolved by accepting all incoming changes is not a resolution. It is a deletion."
+  },
+  {
+    "no": "Zero tolerance.",
+    "reason": "Running as root because it was easier is not a solution. It is an attack surface."
+  },
+  {
+    "no": "Zero interest.",
+    "reason": "The load balancer that sends traffic to a server that is down is not broken. The health check is broken, which is worse."
+  },
+  {
+    "no": "None whatsoever.",
+    "reason": "If reading the logs requires knowing what to look for before you find it, the logs are not useful. They are storage."
+  },
+  {
+    "no": "None at all.",
+    "reason": "The meeting that exists because it has always existed is not a meeting. It is a calendar event with tenure."
+  },
+  {
+    "no": "Nothing of the sort.",
+    "reason": "Every database column named 'data' of type TEXT is a future engineer's grief."
+  },
+  {
+    "no": "I refuse.",
+    "reason": "The process that requires approval from four people for a one-line change does not have four reviewers. It has three people who will rubber-stamp the first person's opinion."
+  },
+  {
+    "no": "I decline.",
+    "reason": "Shipping with known security vulnerabilities because the sprint ends on Friday is not a trade-off. It is a decision to let someone else pay the cost."
+  },
+  {
+    "no": "I object.",
+    "reason": "The API key committed to the repository was valid until someone read this sentence."
+  },
+  {
+    "no": "I protest.",
+    "reason": "If the system cannot be tested locally, it cannot be debugged locally, and engineers who cannot debug locally are slower than they should be."
+  },
+  {
+    "no": "I disagree.",
+    "reason": "The word 'scalable' in an architecture document is doing a lot of work and usually not doing it well."
+  },
+  {
+    "no": "I dissent.",
+    "reason": "An OKR that no one looks at between planning and review is not a goal. It is a document about a goal."
+  },
+  {
+    "no": "I demur.",
+    "reason": "The branching strategy that requires a flow chart to explain is not a strategy. It is a process that outlived its reason."
+  },
+  {
+    "no": "Respectfully no.",
+    "reason": "Versioning your internal API like a public API does not make it more stable. It makes it more ceremonial."
+  },
+  {
+    "no": "Politely no.",
+    "reason": "If the cluster goes down when you update the ingress controller, the ingress controller is not configured for production."
+  },
+  {
+    "no": "Kindly no.",
+    "reason": "The service that handles payments should not also be the service that sends emails. Blast radius matters."
+  },
+  {
+    "no": "Gently no.",
+    "reason": "An engineer who has never been on-call for their own code has never truly been responsible for it."
+  },
+  {
+    "no": "Firmly and finally no.",
+    "reason": "The retry logic that does not have a limit is not resilience. It is a distributed denial-of-service attack against your own infrastructure."
+  },
+  {
+    "no": "Once and for all no.",
+    "reason": "If the team agrees that the current approach is wrong but ships it anyway, the problem has been decided, not postponed."
+  },
+  {
+    "no": "For the last time no.",
+    "reason": "Using floats for money is a decision that seems harmless until someone notices the discrepancy at quarter-end."
+  },
+  {
+    "no": "That is a hard no.",
+    "reason": "The infrastructure that only one person knows how to provision is not infrastructure. It is institutional knowledge with an IP address."
+  },
+  {
+    "no": "That is a clear no.",
+    "reason": "Measuring team health with velocity alone is measuring the wrong thing precisely."
+  },
+  {
+    "no": "That is a firm no.",
+    "reason": "Kubernetes does not solve your problems. It moves your problems closer to the infrastructure layer, where they cost more to debug."
+  },
+  {
+    "no": "That is a definite no.",
+    "reason": "The service that handles its own authentication, authorization, rate limiting, and logging is not a service. It is four services in a trench coat."
+  },
+  {
+    "no": "That is a final no.",
+    "reason": "A codebase where every function does one thing and does it well is not over-engineered. It is a pleasure to work in."
+  },
+  {
+    "no": "That is a flat no.",
+    "reason": "The queue that has been growing for three weeks is not a queue. It is a warning that the consumer is broken."
+  },
+  {
+    "no": "That is a strong no.",
+    "reason": "If you cannot explain the difference between authentication and authorization, you should not be designing the access control system."
+  },
+  {
+    "no": "That is a loud no.",
+    "reason": "The database that has never been vacuumed is not a database. It is a museum of dead rows."
+  },
+  {
+    "no": "That is a resounding no.",
+    "reason": "An integration test that passes locally and fails in CI is not a flaky test. It is a test that found a real difference between environments."
+  },
+  {
+    "no": "That is an emphatic no.",
+    "reason": "Closing the issue as 'works as designed' when the design is wrong is not a resolution. It is a decision to keep the wrong design."
+  },
+  {
+    "no": "That is an unambiguous no.",
+    "reason": "The team that has never had an outage has also never been tested."
+  },
+  {
+    "no": "That is an absolute no.",
+    "reason": "Describing a database full of nulls as 'flexible schema' is an optimistic reframing of a data quality problem."
+  },
+  {
+    "no": "That is a categorical no.",
+    "reason": "If the feature is not in the requirements, building it anyway is not proactivity. It is scope creep with good intentions."
+  },
+  {
+    "no": "That is a decisive no.",
+    "reason": "The microservice that has its own microservices is not a microservice. It is a monolith that has had time to reflect."
+  },
+  {
+    "no": "By no stretch of the imagination.",
+    "reason": "Code that was 'just a quick prototype' is now in its fourth year of production service."
+  },
+  {
+    "no": "Not by a long shot.",
+    "reason": "The Jira board with three hundred items in the backlog is not a backlog. It is a list of things that will never be done."
+  },
+  {
+    "no": "Not for all the tea in China.",
+    "reason": "An alert with no runbook is an alert that requires its recipient to think at three in the morning, which is the worst time to think."
+  },
+  {
+    "no": "Not for all the money in the world.",
+    "reason": "The deployment pipeline that skips tests on hotfix branches is a pipeline that tests whether you are lucky."
+  },
+  {
+    "no": "Not for love nor money.",
+    "reason": "Every workaround that lives in production was introduced by someone who intended to come back and do it properly."
+  },
+  {
+    "no": "Don't hold your breath.",
+    "reason": "The API documentation generated from the code comments is not documentation. It is a transcript."
+  },
+  {
+    "no": "Not in this lifetime.",
+    "reason": "A company all-hands that ends with 'any questions?' and has no questions is not an open culture. It is a culture that has learned what kinds of questions are welcome."
+  },
+  {
+    "no": "Not in this universe.",
+    "reason": "The daily standup where everyone says 'no blockers' and then spends the day blocked is not a standup. It is theater."
+  },
+  {
+    "no": "Not under any circumstances.",
+    "reason": "Running an unsupported version of a dependency is not a technical decision. It is a technical debt payment deferred to a future incident."
+  },
+  {
+    "no": "Under no circumstances.",
+    "reason": "If the design document was written after the feature was shipped, it is not a design document. It is post-hoc rationalization."
+  },
+  {
+    "no": "In no way shape or form.",
+    "reason": "The shared development database that everyone writes to is not a development environment. It is a source of mysterious bugs."
+  },
+  {
+    "no": "Perish the thought.",
+    "reason": "A container that runs as root because it was easier is not a container. It is root access with extra steps."
+  },
+  {
+    "no": "Heaven forbid.",
+    "reason": "The quarterly planning session that produces a plan no one looks at until next quarter is not planning. It is theater with a slide deck."
+  },
+  {
+    "no": "Far be it from me to agree.",
+    "reason": "Logging the exception and re-throwing it is not error handling. It is making sure the error gets logged twice."
+  },
+  {
+    "no": "I beg to differ.",
+    "reason": "The data pipeline that has never failed is either very well built or has never handled real data."
+  },
+  {
+    "no": "I am afraid not.",
+    "reason": "If the business logic lives in the stored procedure, the stored procedure is not infrastructure. It is the application."
+  },
+  {
+    "no": "I regretfully decline.",
+    "reason": "A timeout of thirty seconds is not a reasonable default. It is a polite way of saying the system does not know how long things take."
+  },
+  {
+    "no": "I am compelled to decline.",
+    "reason": "The 'senior developer' who has never reviewed code from someone more junior than them has never checked whether their assumptions match reality."
+  },
+  {
+    "no": "I find myself unable to agree.",
+    "reason": "The product that does not have a defined data retention policy is not missing a policy. It is accumulating a liability."
+  },
+  {
+    "no": "I cannot in good conscience agree.",
+    "reason": "Using eval() to save a few lines of code is trading readability for power you almost certainly do not need."
+  },
+  {
+    "no": "I am sorry but no.",
+    "reason": "A repository with no README is asking every new contributor to rediscover the same setup steps."
+  },
+  {
+    "no": "I regret to say no.",
+    "reason": "The performance fix that only works because of a specific CPU cache behavior is not a fix. It is a coincidence."
+  },
+  {
+    "no": "Flattered but no.",
+    "reason": "The service that needs to be restarted every three days is telling you something. It is rude to ignore it."
+  },
+  {
+    "no": "Honored but no.",
+    "reason": "Every time someone says 'just deploy it and see what happens,' they are describing an experiment with unclear success criteria and real users."
+  },
+  {
+    "no": "Appreciate it but no.",
+    "reason": "The bug that only happens under load is not a load testing problem. It is a bug that requires load to appear."
+  },
+  {
+    "no": "Kind of you but no.",
+    "reason": "An endpoint that does not validate its inputs is not trusting its callers. It is trusting everyone who will ever call it, including people you have not met."
+  },
+  {
+    "no": "Much obliged but no.",
+    "reason": "Soft deletes that accumulate forever are not data preservation. They are a table that has given up on cleanup."
+  },
+  {
+    "no": "I would rather not.",
+    "reason": "A team that never disagrees in code review has stopped giving useful feedback."
+  },
+  {
+    "no": "I would sooner not.",
+    "reason": "The deployment that requires coordination across five teams is not a deployment process. It is a negotiation."
+  },
+  {
+    "no": "I should think not.",
+    "reason": "Using a message queue to pass a five-byte flag between two services that run on the same machine is not architecture. It is overhead."
+  },
+  {
+    "no": "I should say not.",
+    "reason": "The test coverage metric at ninety percent does not tell you which ten percent is wrong. It tells you how much was tested, which is different."
+  },
+  {
+    "no": "I dare say not.",
+    "reason": "If the system requires a human to press a button to complete a routine task, that button press is the most fragile part of the process."
+  },
+  {
+    "no": "I rather think not.",
+    "reason": "Code that was clever when it was written is a gift to the author and a burden to every reader who follows."
+  },
+  {
+    "no": "Ni hablar.",
+    "reason": "The service level agreement that no one reads is not a commitment. It is a filing cabinet."
+  },
+  {
+    "no": "Jamais.",
+    "reason": "An admin panel with no audit log is a system where things can happen and no one will ever know."
+  },
+  {
+    "no": "Certainement pas.",
+    "reason": "If the same work is estimated differently depending on who is in the room, the estimates are measuring confidence, not effort."
+  },
+  {
+    "no": "Absolument pas.",
+    "reason": "The cloud bill that grows every month without explanation is not scaling. It is money leaving without a plan."
+  },
+  {
+    "no": "En aucun cas.",
+    "reason": "A deployment script that has not been tested since it was written is a deployment script that will fail during the deployment that matters most."
+  },
+  {
+    "no": "Pas question.",
+    "reason": "The security review that happens after the feature ships is not a security review. It is a list of things to fix in the next sprint."
+  },
+  {
+    "no": "Hors de question.",
+    "reason": "If every engineer on the team knows the code is wrong but it ships anyway, the team has learned that knowing does not matter."
+  },
+  {
+    "no": "Nullement.",
+    "reason": "The migration that runs in production during peak traffic is not bold. It is optimistic about how much nothing goes wrong."
+  },
+  {
+    "no": "Jamais de la vie.",
+    "reason": "A standup where people give status reports to the manager instead of surfacing blockers to the team is not agile. It is a daily meeting."
+  },
+  {
+    "no": "Bien sur que non.",
+    "reason": "If the CI pipeline only runs on pull requests, bugs introduced directly to main will be found in production."
+  },
+  {
+    "no": "Surement pas.",
+    "reason": "The retry budget that is never monitored is not a retry budget. It is hope."
+  },
+  {
+    "no": "Vraiment pas.",
+    "reason": "Every time an engineer says 'we'll come back to clean this up,' the entropy of the codebase increases by a small but measurable amount."
+  },
+  {
+    "no": "Ce n'est pas possible.",
+    "reason": "An event-driven architecture where every consumer must be up for the event to matter is not event-driven. It is synchronous with extra latency."
+  },
+  {
+    "no": "Je refuse.",
+    "reason": "The developer who only writes happy-path tests has never met an actual user."
+  },
+  {
+    "no": "Je decline.",
+    "reason": "If the entire team has to understand every part of the system, the system has no team. It has one mind distributed across multiple people."
+  },
+  {
+    "no": "Je m'y oppose.",
+    "reason": "The service that holds a database connection open for the life of the process does not need a connection. It needs a connection pool."
+  },
+  {
+    "no": "Keinesfalls.",
+    "reason": "A meeting with no agenda is a meeting where someone will decide the agenda after everyone has already shown up."
+  },
+  {
+    "no": "Auf keinen Fall.",
+    "reason": "Fixing a bug in production by modifying data directly in the database is not a hotfix. It is an undocumented state change."
+  },
+  {
+    "no": "Ganz und gar nicht.",
+    "reason": "The engineer who says 'I don't write tests because my code works' has never been the one to debug it at two in the morning."
+  },
+  {
+    "no": "Niemals.",
+    "reason": "If both sides of the A/B test get the same treatment because the flag was set wrong, the experiment is not running. It is costing money."
+  },
+  {
+    "no": "Absolut nicht.",
+    "reason": "The docker-compose file that requires setting seventeen environment variables to run locally is not a development environment. It is homework."
+  },
+  {
+    "no": "Sicher nicht.",
+    "reason": "A load balancer that has never had traffic actually balanced is not load balancing. It is a single server with extra DNS."
+  },
+  {
+    "no": "Bestimmt nicht.",
+    "reason": "Commenting out the cleanup code because 'we'll add it back later' is how resources get leaked in perpetuity."
+  },
+  {
+    "no": "Gar nicht.",
+    "reason": "The company that moves fast and breaks things eventually breaks things it cannot afford to break."
+  },
+  {
+    "no": "In keiner Weise.",
+    "reason": "An error page that exposes a stack trace is not a user experience. It is a security advisory."
+  },
+  {
+    "no": "Unter keinen Umstanden.",
+    "reason": "If the last person who understood this part of the codebase left eighteen months ago, the codebase does not have an owner. It has a memorial."
+  },
+  {
+    "no": "Niemals im Leben.",
+    "reason": "The sprint that requires everything to go perfectly is not a sprint. It is a gamble."
+  },
+  {
+    "no": "Auf gar keinen Fall.",
+    "reason": "An endpoint that returns different shapes of JSON depending on the state of the data is not polymorphic. It is unpredictable."
+  },
+  {
+    "no": "Das kommt nicht in Frage.",
+    "reason": "Code that requires understanding the history of four other decisions to make sense is not self-documenting. It is historically dependent."
+  },
+  {
+    "no": "Das ist ausgeschlossen.",
+    "reason": "The shared utility library that has no tests is a library that will break silently when someone updates it."
+  },
+  {
+    "no": "Das geht nicht.",
+    "reason": "Naming your branch 'final_final_v3_revised' is a sign that the branching strategy needs revisiting."
+  },
+  {
+    "no": "Ich lehne ab.",
+    "reason": "If the only way to deploy is to ping someone in Slack, the deployment process is a person."
+  },
+  {
+    "no": "Ich verweigere.",
+    "reason": "The query that runs a full table scan on a ten-million-row table every time someone views a dashboard is not a query. It is a scheduled outage."
+  },
+  {
+    "no": "Ich sage nein.",
+    "reason": "A code freeze that lasts six weeks is not stability. It is six weeks of bugs accumulating in silence."
+  },
+  {
+    "no": "Para nada.",
+    "reason": "The engineering blog post announcing a new architecture that has not been built yet is marketing, not engineering."
+  },
+  {
+    "no": "De ninguna manera.",
+    "reason": "An integration that can only be debugged by looking at the third-party's logs is not an integration you own. It is a dependency you cannot debug."
+  },
+  {
+    "no": "En absoluto.",
+    "reason": "The team that estimates in story points but tracks in hours is not agile. It is using two different units for the same thing and hoping no one notices."
+  },
+  {
+    "no": "Jamas.",
+    "reason": "Declaring victory when the feature flag is enabled is not shipping. Shipping is when users are using it and it is working."
+  },
+  {
+    "no": "Nunca.",
+    "reason": "An alert severity of 'critical' that goes off four times a day is no longer critical. It is noise, and noise is how real critical alerts get missed."
+  },
+  {
+    "no": "Claro que no.",
+    "reason": "The Slack channel with five thousand unread messages is not communication. It is ambient anxiety."
+  },
+  {
+    "no": "Por supuesto que no.",
+    "reason": "Describing yourself as 'full-stack' because you can write both the frontend and the backend does not mean you should do both alone."
+  },
+  {
+    "no": "Que va.",
+    "reason": "The third-party library you do not understand is a black box in your dependency tree and a surprise in your incident report."
+  },
+  {
+    "no": "Ni de broma.",
+    "reason": "A code comment that says 'don't touch this' without explaining why is an invitation for someone to touch it and find out."
+  },
+  {
+    "no": "Ni loco.",
+    "reason": "The system that has never had its assumptions questioned has been accreting them since the day it was built."
+  },
+  {
+    "no": "Ni sonar.",
+    "reason": "Adding a feature to the wrong layer of the stack is a decision that will ripple through every layer below it."
+  },
+  {
+    "no": "Desde luego que no.",
+    "reason": "An uptime SLA that is measured from the wrong starting point is not an SLA. It is a number that sounds good."
+  },
+  {
+    "no": "Por ninguna razon.",
+    "reason": "The team meeting where decisions are pre-decided and the meeting exists to announce them is not collaborative decision-making. It is theater with attendance required."
+  },
+  {
+    "no": "Totalmente no.",
+    "reason": "If the bug is fixed by clearing the cache, the bug is not fixed. The cache is hiding it."
+  },
+  {
+    "no": "Absolutamente no.",
+    "reason": "The process that was built for a team of five does not scale to a team of fifty. It needs to be rebuilt, not extended."
+  },
+  {
+    "no": "Definitivamente no.",
+    "reason": "A service that takes twenty seconds to start is a service that cannot be scaled quickly under pressure."
+  },
+  {
+    "no": "Rotundamente no.",
+    "reason": "The team that always says yes to scope changes always says yes to slipping deadlines."
+  },
+  {
+    "no": "Me niego.",
+    "reason": "The test data that looks like production data has a way of eventually becoming production data."
+  },
+  {
+    "no": "Niente affatto.",
+    "reason": "Every magic number in the codebase was once a considered decision that someone forgot to name."
+  },
+  {
+    "no": "Assolutamente no.",
+    "reason": "Removing a feature that users depend on without a migration path is not simplification. It is abandonment."
+  },
+  {
+    "no": "Mai.",
+    "reason": "The environment that differs from production in even one meaningful way will produce bugs that can only be reproduced in production."
+  },
+  {
+    "no": "Per niente.",
+    "reason": "A 'temporary' increase to the rate limit that stays temporary for two years is permanent."
+  },
+  {
+    "no": "In nessun modo.",
+    "reason": "The CI server that has not had its dependencies updated in a year is running in an environment that no longer matches anything."
+  },
+  {
+    "no": "Macche.",
+    "reason": "Saying 'we'll add tests later' is the same as saying 'we'll never add tests.'"
+  },
+  {
+    "no": "Neanche per sogno.",
+    "reason": "The service that can only be reasoned about by its original author is not maintainable. It is a dependency on a person."
+  },
+  {
+    "no": "Figurati.",
+    "reason": "A sprint with twenty tickets and five engineers is not a sprint. It is a negotiation about which things will not get done."
+  },
+  {
+    "no": "Certo che no.",
+    "reason": "If the logs do not show what happened before the crash, the logs are not useful for the crashes that matter."
+  },
+  {
+    "no": "Ovviamente no.",
+    "reason": "The service mesh that adds latency to every call is not free. Distributed system complexity is never free."
+  },
+  {
+    "no": "Naturalmente no.",
+    "reason": "An architecture review board that approves everything is not governance. It is a delay."
+  },
+  {
+    "no": "Di sicuro no.",
+    "reason": "The API that changes its contract without a version bump is not evolving. It is breaking its callers."
+  },
+  {
+    "no": "Certamente no.",
+    "reason": "Running load tests in production is brave. Running load tests in production without a rollback plan is reckless."
+  },
+  {
+    "no": "Decisamente no.",
+    "reason": "The team that celebrates shipped features without measuring whether they worked has not closed the loop."
+  },
+  {
+    "no": "Fermamente no.",
+    "reason": "A service that has no graceful shutdown is a service that will corrupt state the moment someone restarts the host."
+  },
+  {
+    "no": "Categoricamente no.",
+    "reason": "Not all technical problems require a technical solution. Some require a conversation."
+  },
+  {
+    "no": "Mi rifiuto.",
+    "reason": "The incident that gets resolved by rebooting without understanding why is an incident waiting to recur."
+  },
+  {
+    "no": "De jeito nenhum.",
+    "reason": "A codebase with no deletion policy is a codebase that gets heavier every year."
+  },
+  {
+    "no": "De forma alguma.",
+    "reason": "If every new hire asks the same questions, the answers should be written down somewhere."
+  },
+  {
+    "no": "Nunca na vida.",
+    "reason": "The production change that was made because someone was tired of waiting for a deploy is the production change you will regret."
+  },
+  {
+    "no": "Absolutamente nao.",
+    "reason": "A service that cannot explain its own dependencies cannot explain its own failure modes."
+  },
+  {
+    "no": "Definitivamente nao.",
+    "reason": "The team that only does root cause analysis after major incidents will keep having major incidents."
+  },
+  {
+    "no": "De maneira alguma.",
+    "reason": "Every time a developer works around a tool instead of with it, the tool is probably telling them something."
+  },
+  {
+    "no": "Em hipotese alguma.",
+    "reason": "The retry that does not use exponential backoff with jitter will cause a thundering herd problem the moment the downstream service recovers."
+  },
+  {
+    "no": "Nem pensar.",
+    "reason": "A codebase that no one enjoys working in produces engineers who leave."
+  },
+  {
+    "no": "De modo algum.",
+    "reason": "The contract test that tests only the happy path is a contract test that does not test the contract."
+  },
+  {
+    "no": "Me recuso.",
+    "reason": "If every deployment requires a human to verify it manually, the deployment is not automated. It is assisted."
+  },
+  {
+    "no": "Neen.",
+    "reason": "The scheduled task that has been failing silently for six months is not a scheduled task. It is a scheduled lie."
+  },
+  {
+    "no": "Nooit.",
+    "reason": "A service without a circuit breaker is a service that will faithfully wait for a dead dependency forever."
+  },
+  {
+    "no": "Absoluut niet.",
+    "reason": "The refactor that does not change behavior can still introduce bugs. Every line change is a choice."
+  },
+  {
+    "no": "Zeker niet.",
+    "reason": "If the service does not have a defined owner, incidents involving it will involve a conversation about ownership at the worst possible moment."
+  },
+  {
+    "no": "Geen sprake van.",
+    "reason": "The team that estimates by committee produces estimates that represent confidence in the room, not reality."
+  },
+  {
+    "no": "Natuurlijk niet.",
+    "reason": "A dependency with no license is not a free dependency. It is a legal risk that has not materialized yet."
+  },
+  {
+    "no": "In geen geval.",
+    "reason": "The log format that differs between services makes distributed tracing ten times harder than it needs to be."
+  },
+  {
+    "no": "Op geen manier.",
+    "reason": "Upgrading a major version on a Friday is not risky tolerance. It is optimism about weekend plans."
+  },
+  {
+    "no": "Dat kan niet.",
+    "reason": "The shared mutable state that two services write to is not a data store. It is a race condition."
+  },
+  {
+    "no": "Beslist niet.",
+    "reason": "A pull request that touches forty files is not one change. It is several changes pretending to be one."
+  },
+  {
+    "no": "Stellig niet.",
+    "reason": "The system that works beautifully in the demo and struggles in daily use has not been optimized for the right environment."
+  },
+  {
+    "no": "Aldrig.",
+    "reason": "A timeout that is longer than the user's patience is not a timeout. It is a way of making the user close the tab."
+  },
+  {
+    "no": "Absolut inte.",
+    "reason": "The config file that is different on every developer's machine is not a config file. It is a mystery."
+  },
+  {
+    "no": "Visst inte.",
+    "reason": "If tests are the first thing cut when the sprint is short, tests are considered optional, and optional things do not get done consistently."
+  },
+  {
+    "no": "Ingen chans.",
+    "reason": "The endpoint that returns a 200 with an error message in the body is violating HTTP semantics and confusing every client."
+  },
+  {
+    "no": "Naturligtvis inte.",
+    "reason": "A security vulnerability marked 'low severity' by the library vendor might be high severity in your specific context."
+  },
+  {
+    "no": "Definitivt inte.",
+    "reason": "Every time a developer bypasses the type system 'just this once,' the system becomes a little less trustworthy."
+  },
+  {
+    "no": "Verkligen inte.",
+    "reason": "The feature that was requested by one enterprise customer and built into the product without a plan for general availability is not a feature. It is a side contract."
+  },
+  {
+    "no": "Pa inget vis.",
+    "reason": "A development environment that requires a week to set up correctly is a recruiting problem."
+  },
+  {
+    "no": "Aldrig i livet.",
+    "reason": "The service that has more configuration options than users is not flexible. It is unmaintainable."
+  },
+  {
+    "no": "Jag nekar.",
+    "reason": "If the system handles failures by ignoring them, the system does not handle failures."
+  },
+  {
+    "no": "Jag avvisar.",
+    "reason": "The API design that requires reading the error codes document to understand the success response is not well-designed."
+  },
+  {
+    "no": "Aldri.",
+    "reason": "A team that ships code it is embarrassed by will eventually become embarrassed to ship."
+  },
+  {
+    "no": "Absolutt ikke.",
+    "reason": "The database schema that was designed for the first version of the product and never migrated is the reason the product cannot evolve."
+  },
+  {
+    "no": "Slett ikke.",
+    "reason": "Storing JSON blobs in relational databases is not flexible. It is avoiding the hard conversation about schema design."
+  },
+  {
+    "no": "Ingen sjanse.",
+    "reason": "The release notes that say 'bug fixes and performance improvements' tell users nothing and engineers nothing."
+  },
+  {
+    "no": "Selvfolgelig ikke.",
+    "reason": "A code ownership rule that no one enforces is not a rule. It is a suggestion that has been formatted as a rule."
+  },
+  {
+    "no": "Definitivt ikke.",
+    "reason": "The team that defines done as 'merged to main' and not 'working in production for users' has not defined done."
+  },
+  {
+    "no": "Virkelig ikke.",
+    "reason": "If the production database password is the same as the staging database password, the environments are not isolated."
+  },
+  {
+    "no": "Aldri i livet.",
+    "reason": "The issue labeled 'needs more information' that has been open for a year does not need more information. It needs a decision."
+  },
+  {
+    "no": "Nej, aldrig.",
+    "reason": "A PR approval from someone who did not read the code is not an approval. It is a signature on a blank check."
+  },
+  {
+    "no": "Overhovedet ikke.",
+    "reason": "The service that sends an email for every database change is not an event system. It is a spam generator."
+  },
+  {
+    "no": "Ingen chance.",
+    "reason": "Describing a four-hundred-millisecond response time as 'fast enough' ignores what users experience at the tail of the distribution."
+  },
+  {
+    "no": "Pa ingen made.",
+    "reason": "The policy that says 'all APIs must be documented' but has no enforcement mechanism is not a policy. It is a wish."
+  },
+  {
+    "no": "Bestemt ikke.",
+    "reason": "A database with no foreign key constraints is a database that trusts all code that will ever run against it, including the code not written yet."
+  },
+  {
+    "no": "Ei.",
+    "reason": "Every feature that cannot be turned off is a feature that cannot be fixed without a deployment."
+  },
+  {
+    "no": "Ei lainkaan.",
+    "reason": "The code review that focuses only on style and ignores logic is checking the gift wrapping and not the gift."
+  },
+  {
+    "no": "Ei koskaan.",
+    "reason": "A system designed to be simple will become complex over time. A system designed to be complex starts there."
+  },
+  {
+    "no": "Ei ikinaa.",
+    "reason": "The person who says 'I work best under pressure' has usually created the pressure themselves."
+  },
+  {
+    "no": "Ehdottomasti ei.",
+    "reason": "An integration that requires human verification before it succeeds is not an integration. It is a manual process with an API call in the middle."
+  },
+  {
+    "no": "Totta kai ei.",
+    "reason": "The team that cannot name the top three user complaints does not know what to build next."
+  },
+  {
+    "no": "Varmasti ei.",
+    "reason": "A build that takes thirty minutes has thirty minutes of feedback delay built into every change."
+  },
+  {
+    "no": "Missaan nimessa ei.",
+    "reason": "The dashboard built by engineers for engineers is not a product metric. It is an internal signal that needs translation."
+  },
+  {
+    "no": "Ei millaan tavalla.",
+    "reason": "Treating every bug report as low priority until a customer escalates is training customers to escalate everything."
+  },
+  {
+    "no": "Ei ihan todellakaan.",
+    "reason": "The architectural decision that optimizes for the case that never occurs is a decision made without data."
+  },
+  {
+    "no": "Net.",
+    "reason": "A migration tool that only works in one direction is not a migration tool. It is a one-way valve."
+  },
+  {
+    "no": "Nikogda.",
+    "reason": "Every 'and' in a function name is a sign the function does two things and should be two functions."
+  },
+  {
+    "no": "Ni v koem sluchaye.",
+    "reason": "The service that requires a specific hostname to work is not portable. It is tied to its environment."
+  },
+  {
+    "no": "Absolyutno net.",
+    "reason": "If you cannot reproduce the bug, you cannot confirm the fix."
+  },
+  {
+    "no": "Konechno net.",
+    "reason": "The developer experience that requires reading three wikis to accomplish a common task is a developer experience that people work around."
+  },
+  {
+    "no": "Razumeetsya net.",
+    "reason": "A permissions system with one role called 'admin' is not a permissions system. It is a binary."
+  },
+  {
+    "no": "Reshitelno net.",
+    "reason": "The API that requires a specific order of calls to work correctly is not an API. It is a protocol that was never documented as one."
+  },
+  {
+    "no": "Kategoricheski net.",
+    "reason": "Running the same query in a loop is a sign the query should include a JOIN."
+  },
+  {
+    "no": "Nikak net.",
+    "reason": "A service that logs at DEBUG level in production is a service that does not respect the people reading the logs."
+  },
+  {
+    "no": "Ni za chto.",
+    "reason": "The team that rebuilds the same internal tool every two years because the previous one is 'too hard to maintain' has a maintenance problem, not a tool problem."
+  },
+  {
+    "no": "Eto isklyucheno.",
+    "reason": "Every time you choose consistency over availability, you have made a bet that the network will not partition. The network will eventually partition."
+  },
+  {
+    "no": "Nie.",
+    "reason": "The README that describes how the project worked two major versions ago is worse than no README."
+  },
+  {
+    "no": "Nigdy.",
+    "reason": "A data model that cannot represent a known edge case is not a complete data model."
+  },
+  {
+    "no": "Absolutnie nie.",
+    "reason": "The engineer who does not read error messages is the engineer who writes error messages no one reads."
+  },
+  {
+    "no": "W zadnym razie.",
+    "reason": "Storing session tokens in localStorage is not convenient. It is an XSS vulnerability that has been made easy to exploit."
+  },
+  {
+    "no": "Skad.",
+    "reason": "The integration that assumes the other service will always respond in under one second has not met the other service under load."
+  },
+  {
+    "no": "Oczywiscie nie.",
+    "reason": "A test suite that requires a specific seed to produce deterministic results is a test suite that is hiding non-determinism."
+  },
+  {
+    "no": "Zdecydowanie nie.",
+    "reason": "The pipeline that sends all error emails to an inbox no one checks is a pipeline that has no error handling."
+  },
+  {
+    "no": "Kategorycznie nie.",
+    "reason": "If you cannot roll back a deploy, you cannot deploy with confidence. Confidence and reversibility are the same thing."
+  },
+  {
+    "no": "Zadnym sposobem.",
+    "reason": "The decision made in a Slack thread has the same authority as no decision, plus the illusion that it was decided."
+  },
+  {
+    "no": "Nigdy w zyciu.",
+    "reason": "A background job that writes to the same table as the foreground job without a locking strategy is a race condition."
+  },
+  {
+    "no": "Nikdy.",
+    "reason": "The technical specification that is longer than the code it describes is a document about a different system than the one that was built."
+  },
+  {
+    "no": "Rozhodne ne.",
+    "reason": "An API that requires an account to try is an API that has not been designed for adoption."
+  },
+  {
+    "no": "V zadnem pripade.",
+    "reason": "The database that has not been restored from backup in a test environment does not have a working backup."
+  },
+  {
+    "no": "Samozrejme ne.",
+    "reason": "If the cache invalidation is not tested, the cache invalidation is wrong."
+  },
+  {
+    "no": "Urcite ne.",
+    "reason": "Every service boundary is also a failure boundary. Adding more services adds more ways things can go wrong."
+  },
+  {
+    "no": "Kategoricky ne.",
+    "reason": "The team that does not review its own architecture annually will find itself defending decisions made in a different context."
+  },
+  {
+    "no": "Soha.",
+    "reason": "The feature flag that has been in the codebase for eighteen months without being removed has become a permanent conditional."
+  },
+  {
+    "no": "Hatarozottan nem.",
+    "reason": "Not all disagreements about code style are about code style. Some are about different mental models of the problem."
+  },
+  {
+    "no": "Termeszetesen nem.",
+    "reason": "The observability tool that takes ten minutes to find an answer is not an observability tool. It is a delayed answer machine."
+  },
+  {
+    "no": "Biztosan nem.",
+    "reason": "If the test environment costs the same as production, it is not saving money. It is doubling the cost."
+  },
+  {
+    "no": "Kategorikusan nem.",
+    "reason": "A team that has never written an RFC has never externalized its reasoning."
+  },
+  {
+    "no": "Semmikepen sem.",
+    "reason": "The production secret that was accidentally logged is a secret that should be rotated immediately, not in the next sprint."
+  },
+  {
+    "no": "Soha az eletben.",
+    "reason": "Every microservice that shares a database with another microservice is two parts of a monolith pretending to be independent."
+  },
+  {
+    "no": "Niciodata.",
+    "reason": "The version of the service that is still running in production after the new version deployed is a canary nobody intended to create."
+  },
+  {
+    "no": "Absolut nu.",
+    "reason": "If the sprint ceremony takes more time than the sprint produces value, the process has become the product."
+  },
+  {
+    "no": "In nici un caz.",
+    "reason": "A GraphQL schema that exposes every field of every model is not a schema. It is an unfiltered view of the database."
+  },
+  {
+    "no": "Bineinteles ca nu.",
+    "reason": "The developer who never deploys their own features is the developer who never understands the operational cost of their own decisions."
+  },
+  {
+    "no": "Sigur ca nu.",
+    "reason": "Ignoring warnings in the build output is training yourself to ignore signals."
+  },
+  {
+    "no": "Categoric nu.",
+    "reason": "The data export that cannot be imported back into the system is not a data export. It is a dead end."
+  },
+  {
+    "no": "Nicidecum.",
+    "reason": "An API rate limit that cannot be monitored by the API consumer is not a rate limit they can design around."
+  },
+  {
+    "no": "Asla.",
+    "reason": "If the service cannot run in isolation during a test, the test is not a unit test. It is an integration test that does not admit it."
+  },
+  {
+    "no": "Olmaz.",
+    "reason": "Every time a production database is used for a data exploration session, something valuable is at risk."
+  },
+  {
+    "no": "Imkansiz.",
+    "reason": "The chat message that delivers bad news before the formal process does not bypass the process. It creates a second, informal process that is harder to reason about."
+  },
+  {
+    "no": "Kesinlikle hayir.",
+    "reason": "The abstraction that leaks its implementation details has failed at being an abstraction."
+  },
+  {
+    "no": "Hic.",
+    "reason": "An alert that requires human judgment every time it fires is not an automated alert. It is an automated interrupt."
+  },
+  {
+    "no": "Hic bir zaman.",
+    "reason": "The project that has been 'ninety percent done' for three weeks is not ninety percent done."
+  },
+  {
+    "no": "Kesinlikle olmaz.",
+    "reason": "If you do not know what the system does when it fails, you do not know how the system behaves."
+  },
+  {
+    "no": "Tabiki hayir.",
+    "reason": "The multi-tenant system that uses client IDs as namespaces but does not enforce tenant isolation is not multi-tenant. It is a data leak waiting to happen."
+  },
+  {
+    "no": "Elbette hayir.",
+    "reason": "Every slow query is a fast query that has not yet been given an index or been asked to do less work."
+  },
+  {
+    "no": "Asla olmaz.",
+    "reason": "The team that does not own its metrics does not know whether it is succeeding."
+  },
+  {
+    "no": "Oxi.",
+    "reason": "A job that cannot be restarted without side effects is a job that cannot be safely retried, and jobs that cannot be retried will eventually need to be."
+  },
+  {
+    "no": "Pote.",
+    "reason": "The architecture that was designed for ten users but is now serving ten thousand is not the right architecture anymore."
+  },
+  {
+    "no": "Apolithos oxi.",
+    "reason": "If the entire team reviews every PR, no one owns the review and the review is slower than it needs to be."
+  },
+  {
+    "no": "Kamia periptosi.",
+    "reason": "The security token that never expires is not a long-lived token. It is a permanent vulnerability."
+  },
+  {
+    "no": "Veveos oxi.",
+    "reason": "Not all complexity is essential. Some of it is accidental, and accidental complexity is the kind you can remove."
+  },
+  {
+    "no": "Sigoura oxi.",
+    "reason": "The product that has never done a usability test has not learned whether it is usable."
+  },
+  {
+    "no": "Kathola oxi.",
+    "reason": "If every new requirement fits into the existing architecture perfectly, the requirements are being shaped to fit the architecture."
+  },
+  {
+    "no": "Abadan.",
+    "reason": "The schema that cannot be changed without downtime is a schema that cannot be changed safely."
+  },
+  {
+    "no": "Qat'an la.",
+    "reason": "A team that does not talk about failures does not learn from them."
+  },
+  {
+    "no": "Mish mumkin.",
+    "reason": "The webhook that does not verify its signature is a webhook that accepts instructions from anyone."
+  },
+  {
+    "no": "Hadha mustahil.",
+    "reason": "Using a spreadsheet to track bugs in a software product is a signal about how seriously bugs are being tracked."
+  },
+  {
+    "no": "La yumkin.",
+    "reason": "The engineer who blames the tools before blaming the approach will always be limited by the tools."
+  },
+  {
+    "no": "Lo.",
+    "reason": "A service that has been running for years without a change is not stable. It is stale, and stale systems accumulate drift."
+  },
+  {
+    "no": "Af paam.",
+    "reason": "Every time you choose the familiar technology over the right technology, you are choosing known limitations over unknown ones."
+  },
+  {
+    "no": "Behekhlet lo.",
+    "reason": "The build artifact that is not versioned cannot be reproduced. Reproducibility is the foundation of debugging."
+  },
+  {
+    "no": "Beshum ofen lo.",
+    "reason": "If the incident requires coordination across five channels to resolve, the incident response process is the second incident."
+  },
+  {
+    "no": "Bivdai lo.",
+    "reason": "A meeting room booked for an hour that could have been thirty minutes is not generosity. It is thirty minutes of everyone's time."
+  },
+  {
+    "no": "Hargez.",
+    "reason": "The rollback that fails is more damaging than the deployment that fails, because rollbacks are used when things are already wrong."
+  },
+  {
+    "no": "Ghat'an na.",
+    "reason": "Every feature added to a product before the core works is a distraction from the thing that needs to work."
+  },
+  {
+    "no": "Be hich vajh.",
+    "reason": "The test database that grows unbounded will eventually cause the test suite to fail in ways that are hard to attribute to the tests."
+  },
+  {
+    "no": "Aslan na.",
+    "reason": "A request that takes three seconds to complete has not been designed with the user's attention span in mind."
+  },
+  {
+    "no": "Emkan nadarad.",
+    "reason": "The rate limiter that limits by IP address does not protect against attacks from a botnet."
+  },
+  {
+    "no": "Hapana sana.",
+    "reason": "If the only documentation is the code, then the reasons behind the code are lost."
+  },
+  {
+    "no": "Sivyo.",
+    "reason": "The queue consumer that does not handle poison pills will eventually stop processing everything because of one bad message."
+  },
+  {
+    "no": "Kamwe.",
+    "reason": "An architecture that prioritizes novelty over operability will be impressive in the demo and painful at two in the morning."
+  },
+  {
+    "no": "Kabisa la.",
+    "reason": "The team that never asks whether they are building the right thing will get very good at building the wrong thing."
+  },
+  {
+    "no": "Bilkul nahi.",
+    "reason": "Every unhandled promise rejection is a bug that decided to leave quietly."
+  },
+  {
+    "no": "Kabhi nahi.",
+    "reason": "The test environment with fake data does not test the system with real data distribution, which is where the edge cases live."
+  },
+  {
+    "no": "Hargiz nahi.",
+    "reason": "A service that trusts its callers completely is a service that trusts everyone who will ever become a caller."
+  },
+  {
+    "no": "Bilkul bhi nahi.",
+    "reason": "The product that does not have a defined off-boarding process will have a chaotic one."
+  },
+  {
+    "no": "Ek dum nahi.",
+    "reason": "If the test fails only when run in parallel with other tests, the test shares state it should not."
+  },
+  {
+    "no": "Kisi bhi tarah nahi.",
+    "reason": "The schema that uses reserved words as column names works until it does not, and when it does not, the error message is confusing."
+  },
+  {
+    "no": "Dame desu.",
+    "reason": "An enum with a value called 'other' is an enum that has not finished thinking about the domain."
+  },
+  {
+    "no": "Ikemasen.",
+    "reason": "The code that grew organically over five years has no architecture. It has history."
+  },
+  {
+    "no": "Zettai ni dame.",
+    "reason": "If fixing one bug consistently introduces another, the two bugs share a root cause that has not been found."
+  },
+  {
+    "no": "Muri desu.",
+    "reason": "The team that writes specs nobody reads has not solved the communication problem. They have added a step to it."
+  },
+  {
+    "no": "Dekimasen.",
+    "reason": "A function that cannot be called from a test is a function that depends on global state, and global state is shared failure."
+  },
+  {
+    "no": "Iya desu.",
+    "reason": "The commit that contains both a bug fix and a new feature is two commits that got impatient."
+  },
+  {
+    "no": "Kotowarimasu.",
+    "reason": "Putting business logic in the database trigger is putting the business logic somewhere it will not be found during the next refactor."
+  },
+  {
+    "no": "Okotowari shimasu.",
+    "reason": "If the error message is harder to understand than the original problem, the error handling has made things worse."
+  },
+  {
+    "no": "Aniyo.",
+    "reason": "The product that ships new features faster than users can learn the existing ones is not building value. It is building confusion."
+  },
+  {
+    "no": "Jeoldae aniyo.",
+    "reason": "An endpoint that does not have a timeout on its dependencies will inherit the worst possible response time of each of them."
+  },
+  {
+    "no": "Andwae.",
+    "reason": "The Kubernetes cluster that requires a certified expert to maintain is not production-ready infrastructure. It is a specialty."
+  },
+  {
+    "no": "Mot hamnida.",
+    "reason": "Every breaking change to a public API is a change that someone's production system will absorb involuntarily."
+  },
+  {
+    "no": "An hamnida.",
+    "reason": "The codebase that has been 'almost ready to open source' for two years is not almost ready."
+  },
+  {
+    "no": "Bushi.",
+    "reason": "A service with no version endpoint makes debugging incidents that span deployments significantly harder."
+  },
+  {
+    "no": "Juedui bu.",
+    "reason": "Every time the same data is stored in two places, the question of which one is correct becomes a matter of time."
+  },
+  {
+    "no": "Cong bu.",
+    "reason": "The feature that was built based on a customer request without asking why the customer wanted it may not solve the customer's actual problem."
+  },
+  {
+    "no": "Bu xing.",
+    "reason": "A deploy that cannot be observed while it is happening cannot be understood after it has gone wrong."
+  },
+  {
+    "no": "Bu ke neng.",
+    "reason": "The rule that exists in a document but is not enforced by tooling is a rule that will be broken by everyone who is in a hurry."
+  },
+  {
+    "no": "Jue bu ke neng.",
+    "reason": "Every time you make a decision without writing it down, the decision becomes harder to revisit."
+  },
+  {
+    "no": "Hindi kailanman.",
+    "reason": "The migration plan that has not been tested on a copy of production data is not a plan. It is a hope."
+  },
+  {
+    "no": "Talaga hindi.",
+    "reason": "A service that depends on a specific version of a runtime that has reached end-of-life is borrowing time from future-you."
+  },
+  {
+    "no": "Tiyak hindi.",
+    "reason": "Every company-wide process that was added after an incident is a permanent reminder of a one-time event."
+  },
+  {
+    "no": "Siyempre hindi.",
+    "reason": "The user who never complains is not a happy user. They are a user who has given up reporting problems."
+  },
+  {
+    "no": "Ayaw.",
+    "reason": "An estimate given without asking questions is a number, not an estimate."
+  },
+  {
+    "no": "Huwag.",
+    "reason": "If the team does not know the cost of each service it runs, the team cannot make informed architecture decisions."
+  },
+  {
+    "no": "Tidak pernah.",
+    "reason": "The pipeline that runs on schedule but has not produced a useful result in months is not automation. It is scheduled waste."
+  },
+  {
+    "no": "Sekali-kali tidak.",
+    "reason": "Every API that returns a different schema for errors than for success makes the client harder to write."
+  },
+  {
+    "no": "Tentu tidak.",
+    "reason": "A search that returns results in a random order that changes on each call is not a search. It is a shuffle."
+  },
+  {
+    "no": "Pasti tidak.",
+    "reason": "The certificate that expires in two days and was not renewed because no one was watching expiry dates is not infrastructure. It is a ticking downtime."
+  },
+  {
+    "no": "Sama sekali tidak.",
+    "reason": "The product that has not changed in two years is not mature. It is stagnant, and stagnant products lose ground to products that are not."
+  },
+  {
+    "no": "Khong duoc.",
+    "reason": "An account deletion that does not delete all associated data is not compliant with most privacy regulations."
+  },
+  {
+    "no": "Tuyet doi khong.",
+    "reason": "The debug flag that was left on in production is not a mistake. It is the mistake that reveals the next mistake."
+  },
+  {
+    "no": "Khong bao gio.",
+    "reason": "Every time a developer edits the production configuration by hand, a configuration management system weeps."
+  },
+  {
+    "no": "Nhat dinh khong.",
+    "reason": "The ticket that cannot be broken down into smaller tickets is a ticket that has not been understood well enough yet."
+  },
+  {
+    "no": "Mai dai.",
+    "reason": "A server that has been running for three years without a reboot is not reliable. It is overdue."
+  },
+  {
+    "no": "Mai chai.",
+    "reason": "If the documentation lives only in one person's head, the documentation is on notice."
+  },
+  {
+    "no": "Ngan mai dai.",
+    "reason": "Every abstraction that cannot be explained in one sentence is probably two abstractions pretending to be one."
+  },
+  {
+    "no": "Rara.",
+    "reason": "The project that has no defined success criteria has no way to know when it is done."
+  },
+  {
+    "no": "Beeni ko.",
+    "reason": "An environment without resource limits is an environment where one bad deploy can affect everything else."
+  },
+  {
+    "no": "O ti ko.",
+    "reason": "The database query that joins seven tables is readable by no one and optimizable by no one."
+  },
+  {
+    "no": "Rara o.",
+    "reason": "If it takes more than one command to start the development environment, it should be one command."
+  },
+  {
+    "no": "Ngeke.",
+    "reason": "Every time a standup goes over fifteen minutes, someone's deep work time gets consumed."
+  },
+  {
+    "no": "Cha nhlobo.",
+    "reason": "The product team that never talks to customers is designing for a persona, not a person."
+  },
+  {
+    "no": "Qha.",
+    "reason": "A scheduled job that assumes a fixed duration is a scheduled job that will eventually overlap itself."
+  },
+  {
+    "no": "Lutho.",
+    "reason": "Not all technical debt is bad. Intentional debt with a repayment plan is a trade-off. Accidental debt is a surprise."
+  },
+  {
+    "no": "Aydelem.",
+    "reason": "The naming convention that was decided informally and never written down is a convention that will drift."
+  },
+  {
+    "no": "Yelem.",
+    "reason": "If the senior engineers always make the final call, the junior engineers will stop making proposals."
+  },
+  {
+    "no": "Gena aydelem.",
+    "reason": "The deployment that requires no verification because 'it's just a config change' is the deployment that brought down production last time too."
+  },
+  {
+    "no": "A'a kai.",
+    "reason": "Every time a feature is removed from scope to hit a deadline, the scope was wrong, not the deadline."
+  },
+  {
+    "no": "Ba haka ba.",
+    "reason": "The user research that was conducted with company employees instead of actual users is not user research."
+  },
+  {
+    "no": "Mba.",
+    "reason": "An API key with full access that was created for a one-time task and never revoked is a permanent exposure."
+  },
+  {
+    "no": "Mba nu.",
+    "reason": "If the feature takes longer to explain than to build, the feature might be the wrong feature."
+  },
+  {
+    "no": "Obi ya adighi.",
+    "reason": "The staging environment that costs a tenth of production and handles a tenth of the load will not reveal production-scale problems."
+  },
+  {
+    "no": "A'ole loa.",
+    "reason": "Every hardcoded string in the codebase is a string that will need to change at the worst possible moment."
+  },
+  {
+    "no": "A'ole keia.",
+    "reason": "The team that refuses to use a framework because 'we can build it ourselves' is trading known problems for unknown ones."
+  },
+  {
+    "no": "A'ole pono.",
+    "reason": "If the system cannot explain its own state on demand, debugging it requires reconstructing that state from logs."
+  },
+  {
+    "no": "Nage.",
+    "reason": "The database that has never been load-tested at the expected growth rate has not been validated for production."
+  },
+  {
+    "no": "Dim o gwbl.",
+    "reason": "An API that changes its behavior based on the day of the week is not an API. It is a surprise."
+  },
+  {
+    "no": "Byth.",
+    "reason": "The monitoring that only monitors the services you remember to add to the monitoring is incomplete monitoring."
+  },
+  {
+    "no": "Na wir.",
+    "reason": "If the production runbook has not been tested in a drill, it is a document about how things should work, not how they do."
+  },
+  {
+    "no": "Naddo.",
+    "reason": "Every time the QA team finds a bug, the development process has a gap. When QA finds no bugs, either the product is perfect or the tests are wrong."
+  },
+  {
+    "no": "Ni hea.",
+    "reason": "The cloud resource that was provisioned for a proof of concept and never deprovisioned is a proof of concept that became a monthly expense."
+  },
+  {
+    "no": "Nil.",
+    "reason": "A system that recovers from failure automatically is more reliable than one that requires human intervention to recover."
+  },
+  {
+    "no": "Riamh.",
+    "reason": "The access control that is enforced at the presentation layer but not the API layer is not access control."
+  },
+  {
+    "no": "Go deo.",
+    "reason": "If the new architecture is not simpler for the common case, it is not an improvement. It is a trade-off with a marketing problem."
+  },
+  {
+    "no": "Chan eil.",
+    "reason": "The database connection that is never closed is a database connection that is slowly accumulating."
+  },
+  {
+    "no": "Cha robh.",
+    "reason": "Every time a type is cast to 'any' to silence a compiler error, the compiler was right."
+  },
+  {
+    "no": "Ez.",
+    "reason": "If the team needs two meetings to align on a decision, the decision was not sufficiently prepared."
+  },
+  {
+    "no": "Inoiz ez.",
+    "reason": "The function that is twelve hundred lines long was not written that way on purpose. It grew."
+  },
+  {
+    "no": "Inondik ere ez.",
+    "reason": "An environment that cannot be torn down and rebuilt from scratch is an environment that has accumulated drift."
+  },
+  {
+    "no": "De cap manera.",
+    "reason": "Every exception that is only caught at the top level has traveled through all the layers that could have handled it more specifically."
+  },
+  {
+    "no": "En absolut.",
+    "reason": "The legacy system that cannot be touched because it might break is not legacy. It is the system. Everything else is supplementary."
+  },
+  {
+    "no": "Ni.",
+    "reason": "If the first person on-call for an alert is not empowered to fix the underlying cause, the alert will recur."
+  },
+  {
+    "no": "Nikoli.",
+    "reason": "A distributed lock that is not released on failure is a distributed lock that will eventually deadlock the system."
+  },
+  {
+    "no": "Absolutno ni.",
+    "reason": "The sprint that starts without a clear definition of done ends with a different definition of done than it started with."
+  },
+  {
+    "no": "Ne, nikad.",
+    "reason": "Every table that grows without bound will eventually cause a problem. The only question is whether that problem is a slow query or a full disk."
+  },
+  {
+    "no": "Apsolutno ne.",
+    "reason": "If two engineers have different mental models of how the system works, and neither is wrong, the system has not been defined clearly enough."
+  },
+  {
+    "no": "Aldrei.",
+    "reason": "The product that solves a problem no one has does not need better marketing. It needs a different problem."
+  },
+  {
+    "no": "Alls ekki.",
+    "reason": "Every time you choose the longer variable name over the shorter one, the code becomes slightly easier to read six months later."
+  },
+  {
+    "no": "Jo.",
+    "reason": "The company that has not tested its disaster recovery plan does not have a disaster recovery plan. It has a document."
+  },
+  {
+    "no": "Kurre.",
+    "reason": "If the team's velocity goes up when a deadline is near but the scope stays the same, quality is the variable being adjusted."
+  },
+  {
+    "no": "Assesi.",
+    "reason": "A git history full of 'WIP' commits is not a history. It is a record of saves."
+  },
+  {
+    "no": "Ugui.",
+    "reason": "The query cache that is never invalidated is serving stale data to an unknown number of users."
+  },
+  {
+    "no": "Khe ugui.",
+    "reason": "Every time you wrap an existing library to 'simplify the interface,' you take on the cost of maintaining that wrapper forever."
+  },
+  {
+    "no": "Ogtu ugui.",
+    "reason": "If the product has more features than users can discover, the product has a discoverability problem and a complexity problem simultaneously."
+  },
+  {
+    "no": "Arasdros.",
+    "reason": "The cron job that runs at midnight 'when traffic is low' is a cron job designed for a different traffic pattern."
+  },
+  {
+    "no": "Voch.",
+    "reason": "A release candidate that is never actually tested as a candidate is not a candidate. It is the release."
+  },
+  {
+    "no": "Bnakanapes voch.",
+    "reason": "If the only people who know the system's history are no longer at the company, the decisions are permanent and their reasons are gone."
+  },
+  {
+    "no": "Voch erbeq.",
+    "reason": "The technical interview that only tests algorithms does not predict whether the candidate can navigate a real codebase."
+  },
+  {
+    "no": "Xeyr.",
+    "reason": "Every time you add a new column to a table instead of a new table, you are deciding that normalization is someone else's problem."
+  },
+  {
+    "no": "Hec vaxt.",
+    "reason": "The API that does not return the request ID makes debugging distributed transactions significantly harder than it needs to be."
+  },
+  {
+    "no": "Qatiyyen yox.",
+    "reason": "If the team cannot ship independently of other teams, the teams are not independent."
+  },
+  {
+    "no": "Zhok.",
+    "reason": "A product where the power users hate the new UI and the new users cannot find anything is not a successful redesign."
+  },
+  {
+    "no": "Hesh qashanda.",
+    "reason": "Every shared library that has no deprecation policy will eventually have a breaking change at the worst time."
+  },
+  {
+    "no": "Yo'q sira.",
+    "reason": "The server that is 'basically never restarted' has state that has been accumulating since the last restart, and that state is unknown."
+  },
+  {
+    "no": "Bo dai.",
+    "reason": "If the feature does not have a success metric before it is built, it will not have a meaningful one after."
+  },
+  {
+    "no": "Aykonen.",
+    "reason": "The team that only retrospects on failures misses the opportunity to understand and repeat successes."
+  },
+  {
+    "no": "Maya.",
+    "reason": "A rate limit of zero does not protect the service. It disables it."
+  },
+  {
+    "no": "Marna.",
+    "reason": "Every environment variable that starts with 'OVERRIDE_' is a past decision that someone needed to escape."
+  },
+  {
+    "no": "Deedeet.",
+    "reason": "If the rollback takes longer than the deployment, the system has not been designed for rollbacks."
+  },
+  {
+    "no": "Aiwa.",
+    "reason": "The test that takes ten seconds to run will be skipped by developers on tight deadlines."
+  },
+  {
+    "no": "Oya na.",
+    "reason": "Every API that requires the caller to poll for results has made an asynchronous operation feel synchronous for no benefit."
+  },
+  {
+    "no": "Nedda.",
+    "reason": "The configuration that lives in code instead of environment variables is a configuration that requires a redeploy to change."
+  },
+  {
+    "no": "Not my circus.",
+    "reason": "A service with no defined SLO is a service that can fail at any rate without anyone noticing it has violated a commitment."
+  },
+  {
+    "no": "Not my monkey.",
+    "reason": "The endpoint that does three database reads, two cache writes, and one external API call is not an endpoint. It is a workflow."
+  },
+  {
+    "no": "Not my problem.",
+    "reason": "If the engineering team cannot say no to the product team, the product team will not learn which requests are reasonable."
+  },
+  {
+    "no": "Not my department.",
+    "reason": "The documentation that is accurate but incomprehensible is not useful documentation."
+  },
+  {
+    "no": "Ask someone else.",
+    "reason": "Every abstraction that cannot be unit-tested is an abstraction that is too tightly coupled to its dependencies."
+  },
+  {
+    "no": "Ask again never.",
+    "reason": "A system that scales horizontally but has a single-threaded bottleneck does not scale horizontally."
+  },
+  {
+    "no": "Try again.",
+    "reason": "If the database backup job fails and no one is notified, you have neither a backup nor monitoring."
+  },
+  {
+    "no": "Good try.",
+    "reason": "The password policy that prevents users from using a password manager is not a security policy. It is a usability problem wearing a security badge."
+  },
+  {
+    "no": "Nice effort.",
+    "reason": "A service that has no documentation for its runbook cannot be operated by anyone new to it."
+  },
+  {
+    "no": "For the last time.",
+    "reason": "The feature that requires explaining every time it is used has not been designed for its users."
+  },
+  {
+    "no": "And that is final.",
+    "reason": "Every time you choose to store derived data instead of computing it, you create a synchronization problem."
+  },
+  {
+    "no": "Non-negotiable.",
+    "reason": "The integration that was built over a long weekend and never reviewed will be the integration that causes the most interesting incident."
+  },
+  {
+    "no": "Off bounds.",
+    "reason": "A team retrospective that identifies root causes but assigns no owners produces insights that expire before the next sprint."
+  },
+  {
+    "no": "Out of bounds.",
+    "reason": "The sprint goal that changes mid-sprint is not a sprint goal. It is a direction."
+  },
+  {
+    "no": "Beyond the scope.",
+    "reason": "If you cannot explain what the code does to a rubber duck, you cannot explain what the code does."
+  },
+  {
+    "no": "Past the point.",
+    "reason": "The log line that says 'success' without saying what succeeded is not a useful log line."
+  },
+  {
+    "no": "Not at this juncture.",
+    "reason": "Every time a developer says 'it's obvious from context,' there is a future developer who will not have that context."
+  },
+  {
+    "no": "Not at this stage.",
+    "reason": "The service that is deprecated but still receives thirty percent of traffic is not deprecated. It is the second production service."
+  },
+  {
+    "no": "Not at this point.",
+    "reason": "A dependency injection framework that requires reading the framework documentation to follow the code flow is hiding complexity, not reducing it."
+  },
+  {
+    "no": "Not in any form.",
+    "reason": "The canary deployment that releases to one percent of traffic and monitors for thirty seconds is not a canary. It is a token gesture."
+  },
+  {
+    "no": "Not in any capacity.",
+    "reason": "If the system requires manual data cleanup after every failed deploy, the failure handling is incomplete."
+  },
+  {
+    "no": "Not by any measure.",
+    "reason": "The product that has not been used by the people who built it has assumptions that have not been tested by reality."
+  },
+  {
+    "no": "Not by any standard.",
+    "reason": "Every time code is merged without tests, the team is deciding that this change does not need to be verified."
+  },
+  {
+    "no": "Not by any metric.",
+    "reason": "The alarm that nobody is responsible for is an alarm that will not be resolved."
+  },
+  {
+    "no": "Not under these conditions.",
+    "reason": "A refactor that takes six months is not a refactor. It is a rewrite that has been given a more palatable name."
+  },
+  {
+    "no": "Nae.",
+    "reason": "The system that works because everyone is careful is a system that will fail when someone is not."
+  },
+  {
+    "no": "Naw.",
+    "reason": "If the team routinely works weekends to hit deadlines, the deadlines are not estimates. They are pressure."
+  },
+  {
+    "no": "Nae way.",
+    "reason": "The bug tracker with no priority field produces a backlog where everything is equally important, which means nothing is."
+  },
+  {
+    "no": "Naht.",
+    "reason": "An endpoint that requires the caller to know the internal ID structure of the database is not an API. It is a database with HTTP."
+  },
+  {
+    "no": "Nawuht.",
+    "reason": "The CI pipeline that deploys automatically to production without any human review is only safe if the tests are comprehensive, and the tests are never comprehensive."
+  },
+  {
+    "no": "Nunquam.",
+    "reason": "Every boolean parameter that changes the fundamental behavior of a function is a function that should be two functions."
+  },
+  {
+    "no": "Minime.",
+    "reason": "The process that was designed by engineers for engineers does not work for the people who are not engineers."
+  },
+  {
+    "no": "Nullo modo.",
+    "reason": "If the code is indistinguishable from the tests in terms of quality, the tests are not doing their job."
+  },
+  {
+    "no": "Neniam.",
+    "reason": "A service that cannot degrade gracefully will fail completely when any of its dependencies are slow."
+  },
+  {
+    "no": "Absolute ne.",
+    "reason": "The documentation that describes what the system does but not why it does it that way is half of the documentation."
+  },
+  {
+    "no": "Tute ne.",
+    "reason": "Every environment variable named 'PROD_SECRET' committed to a repository is a secret that is no longer secret."
+  },
+  {
+    "no": "Oudamos.",
+    "reason": "A service that has grown to include every piece of functionality that could not find a home elsewhere is not a service. It is a miscellaneous drawer."
+  },
+  {
+    "no": "Na.",
+    "reason": "If the migration cannot be run twice without error, the migration is not idempotent, and non-idempotent migrations cannot be safely retried."
+  },
+  {
+    "no": "Nekad.",
+    "reason": "The pull request that fixes three bugs is three pull requests that were combined for convenience."
+  },
+  {
+    "no": "Noteikti ne.",
+    "reason": "If you find yourself writing a utility function for the second time, the first one was in the wrong place."
+  },
+  {
+    "no": "Neka veida ne.",
+    "reason": "Every time a service goes down and no one knows for how long before the monitoring alert fires, the monitoring gaps are too large."
+  },
+  {
+    "no": "Niekada.",
+    "reason": "The meeting that exists to prepare for another meeting is a process that has lost its way."
+  },
+  {
+    "no": "Jokiu budu.",
+    "reason": "A system that depends on wall-clock time for ordering events will produce incorrect orderings across distributed nodes."
+  },
+  {
+    "no": "Kategoriskai ne.",
+    "reason": "If every commit to the main branch passes all tests, the main branch is not a place of concern. If not, it is."
+  },
+  {
+    "no": "Mitte kunagi.",
+    "reason": "The service that has no chaos engineering experiments has assumptions about failure that have never been tested."
+  },
+  {
+    "no": "Kindlasti mitte.",
+    "reason": "A codebase that has not been opened by someone other than its author has not been tested for readability."
+  },
+  {
+    "no": "Mitte mingil juhul.",
+    "reason": "The technical decision that was made to satisfy a vendor's sales pitch is not an architectural decision. It is a commercial decision."
+  },
+  {
+    "no": "Nikoga.",
+    "reason": "If no one in the company can articulate what the engineering team is working on in plain language, engineering is disconnected from the business."
+  },
+  {
+    "no": "Nikoli (Slovenian).",
+    "reason": "The test environment that requires a VPN that only works on the CTO's laptop is not a test environment."
+  },
+  {
+    "no": "Nikdy (Slovak).",
+    "reason": "Every service boundary crossed is a serialization cost, a network round trip, and a new failure mode."
+  },
+  {
+    "no": "Absolutne nie.",
+    "reason": "The sprint that starts on a Monday and ends on a Friday of the same week is called a day."
+  },
+  {
+    "no": "Nikad (Bosnian).",
+    "reason": "If the roadmap is not public to the team, the team is working without a destination."
+  },
+  {
+    "no": "Le.",
+    "reason": "The authentication system that rolls its own crypto is not more secure. It is less audited."
+  },
+  {
+    "no": "Qatt.",
+    "reason": "A database trigger that sends an email is a database trigger that has dependencies no one will think to check."
+  },
+  {
+    "no": "Assolutament le.",
+    "reason": "Every system that was built to be temporary has a non-trivial probability of outlasting the company that built it."
+  },
+  {
+    "no": "Kakhono na.",
+    "reason": "If the team lead cannot take a week off without things breaking, the team has a single point of failure with a management title."
+  },
+  {
+    "no": "Bilkul na.",
+    "reason": "The release branch that diverges from main by three hundred commits is not a release branch. It is a fork."
+  },
+  {
+    "no": "Konodin na.",
+    "reason": "An API that does not have a sandbox environment makes every integration test a production test."
+  },
+  {
+    "no": "Kadey nahi.",
+    "reason": "The feature that is 'almost done' but has been almost done for two weeks has a hidden complexity that has not been surfaced yet."
+  },
+  {
+    "no": "Hoina.",
+    "reason": "If the deployment process involves any step that is 'just something you know,' it will not be completed correctly by someone who does not know."
+  },
+  {
+    "no": "Kahilyai hoina.",
+    "reason": "Every dependency without a pinned version is a dependency whose next update might break the build without notice."
+  },
+  {
+    "no": "Bilkul hoina.",
+    "reason": "The service that logs user PII in the request body has not thought about what happens when those logs are sent to a third-party logging service."
+  },
+  {
+    "no": "Kabhi na.",
+    "reason": "A test that asserts true is true is not a test. It is a placeholder that has been forgotten."
+  },
+  {
+    "no": "Muli nahi.",
+    "reason": "Every if-else chain with more than three conditions is a candidate for a strategy pattern or a lookup table."
+  },
+  {
+    "no": "Qat'an nahi.",
+    "reason": "The team that moves to a new project management tool every year is not optimizing its process. It is distracting itself from its process."
+  },
+  {
+    "no": "Lakki.",
+    "reason": "An incident that is resolved by a single person without a postmortem is an incident that will recur."
+  },
+  {
+    "no": "Dafa doy.",
+    "reason": "The code that was written during a hackathon and shipped to production without a rewrite is not a prototype. It is production code with prototype-quality guarantees."
+  },
+  {
+    "no": "Te soki.",
+    "reason": "If the team is measured on speed but not on quality, quality is what the team will trade."
+  },
+  {
+    "no": "Kabi.",
+    "reason": "Every migration that was not run in a transaction can leave the database in a partially migrated state."
+  },
+  {
+    "no": "Awe.",
+    "reason": "The product analytics that only track page views do not tell you what users are trying to do or whether they are succeeding."
+  },
+  {
+    "no": "Iyayi.",
+    "reason": "A Dockerfile that installs dependencies every time it builds is a Dockerfile that does not use the cache effectively."
+  },
+  {
+    "no": "Neen (Luxembourgish).",
+    "reason": "If the architecture requires a specific database that only one vendor sells, the architecture has a vendor dependency that should be named explicitly."
+  },
+  {
+    "no": "Ez (Basque).",
+    "reason": "The email notification that sends on every status change is not notification. It is noise that conditions users to ignore it."
+  },
+  {
+    "no": "Nope-idy-nope.",
+    "reason": "If the feature requires users to read the documentation before using it, the feature has a design problem."
+  },
+  {
+    "no": "Afraid not.",
+    "reason": "A system that processes every message exactly once under normal conditions does not process every message exactly once. It processes most messages once and some messages twice."
+  },
+  {
+    "no": "Sorry but no.",
+    "reason": "The ticket that bounces between engineering and product for three weeks has not been assigned to anyone who can make a decision."
+  },
+  {
+    "no": "Regrettably no.",
+    "reason": "Every time a deadline is extended, the team learns that deadlines are negotiable. This is sometimes correct and always consequential."
+  },
+  {
+    "no": "Unfortunately no.",
+    "reason": "If the service cannot be deployed independently, it is not independent."
+  },
+  {
+    "no": "Sadly no.",
+    "reason": "The company that rewards heroism during incidents incentivizes the conditions that create incidents."
+  },
+  {
+    "no": "Alas, no.",
+    "reason": "A configuration that requires a restart to take effect is a configuration that requires downtime to change."
+  },
+  {
+    "no": "I'm afraid not.",
+    "reason": "The team that cannot articulate its own value to the business is vulnerable to the next round of budget cuts."
+  },
+  {
+    "no": "That would be a no.",
+    "reason": "Every time you add a parameter with a default value that should not be defaulted, you create a subtle bug that will not appear until the default matters."
+  },
+  {
+    "no": "That's going to be a no.",
+    "reason": "An API client library that is harder to use than the raw API is not a library. It is an obstacle."
+  },
+  {
+    "no": "That would be a no from me.",
+    "reason": "The meeting that produces a decision also produces the people who have to live with that decision. Both should be in the room."
+  },
+  {
+    "no": "No from me.",
+    "reason": "Every boolean named 'flag' is a decision that was never named."
+  },
+  {
+    "no": "No from us.",
+    "reason": "The codebase that has never been profiled has performance characteristics that are entirely theoretical."
+  },
+  {
+    "no": "No on all counts.",
+    "reason": "A database without a query timeout is a database that will wait patiently while a bad query brings everything else to a halt."
+  },
+  {
+    "no": "No on every level.",
+    "reason": "If the incident commander does not have the authority to make decisions, they are not the incident commander."
+  },
+  {
+    "no": "No across the board.",
+    "reason": "Every comment that says 'this is a hack' is a comment that could have been a ticket."
+  },
+  {
+    "no": "Not even close.",
+    "reason": "The product that tracks engagement but not outcomes is optimizing for the wrong signal."
+  },
+  {
+    "no": "Not even a little.",
+    "reason": "If the system's design cannot be sketched on a whiteboard in ten minutes, the system is either very complex or very poorly understood."
+  },
+  {
+    "no": "Not even slightly.",
+    "reason": "Every stored procedure that contains application logic is application logic that cannot be tested by the application test suite."
+  },
+  {
+    "no": "Not a bit.",
+    "reason": "The team that merges code without running it locally has not verified the code. They have verified that the code compiles."
+  },
+  {
+    "no": "Not one bit.",
+    "reason": "A service with no graceful degradation is a service with two states: fully operational and completely broken."
+  },
+  {
+    "no": "Not remotely.",
+    "reason": "Every time a developer chooses the clever solution over the obvious one, they are adding to the cognitive load of every future reader."
+  },
+  {
+    "no": "Not exactly.",
+    "reason": "The postmortem that ends with 'we need better communication' has not identified a root cause. It has identified a symptom."
+  },
+  {
+    "no": "Not quite.",
+    "reason": "If the system's correctness depends on messages arriving in order, and the transport does not guarantee order, the system is incorrect."
+  },
+  {
+    "no": "Not really.",
+    "reason": "The feature that works for the demo use case but not the general case has been optimized for the wrong user."
+  },
+  {
+    "no": "Not especially.",
+    "reason": "A user-facing error message that exposes an internal error code is not helpful. It is confusing in two languages simultaneously."
+  },
+  {
+    "no": "Not particularly.",
+    "reason": "Every abstraction that cannot be swapped for a different implementation has failed at the primary purpose of abstraction."
+  },
+  {
+    "no": "No, thank you very much.",
+    "reason": "The team that ships features nobody asked for is solving problems it invented."
+  },
+  {
+    "no": "No, and that is that.",
+    "reason": "If the load test does not simulate realistic user behavior, the load test tells you how the system performs under unrealistic conditions."
+  },
+  {
+    "no": "No, and I mean that.",
+    "reason": "The service that takes three minutes to deploy is a service where three minutes of risk accumulates with every change."
+  },
+  {
+    "no": "No, and that is my final word.",
+    "reason": "Every event sourcing system that does not have a snapshot strategy will eventually replay from the beginning of time."
+  },
+  {
+    "no": "No, full stop.",
+    "reason": "The team that never challenges requirements produces systems built to spec but not built for users."
+  },
+  {
+    "no": "No, period.",
+    "reason": "A monorepo with no enforced module boundaries is a monolith with extra steps."
+  },
+  {
+    "no": "No, end of discussion.",
+    "reason": "If the distributed system assumes the network is reliable, the distributed system has not read the fallacies of distributed computing."
+  },
+  {
+    "no": "No, end of story.",
+    "reason": "The status page that only gets updated after the incident is resolved is not a status page. It is a historical record."
+  },
+  {
+    "no": "No, case closed.",
+    "reason": "Every place where the code handles null by checking for null is a place where null should have been prevented."
+  },
+  {
+    "no": "No, subject closed.",
+    "reason": "The team that cannot say what it shipped last quarter does not have a way to know whether it is productive."
+  },
+  {
+    "no": "Decidedly no.",
+    "reason": "A container image built from 'latest' is a container image whose contents change without notice."
+  },
+  {
+    "no": "Thoroughly no.",
+    "reason": "If the only test is 'does it start,' the only thing that has been tested is whether it starts."
+  },
+  {
+    "no": "Completely no.",
+    "reason": "Every field labeled 'description' of type TEXT with no length constraint is a future truncation incident."
+  },
+  {
+    "no": "Totally no.",
+    "reason": "The team that escalates every decision upward is not empowered. It is waiting for permission."
+  },
+  {
+    "no": "Utterly no.",
+    "reason": "If the monitoring is set up by a different team than the one that owns the service, the monitoring will not cover what the service owners consider important."
+  },
+  {
+    "no": "Entirely no.",
+    "reason": "The API key that was never rotated is not a credential. It is an invitation that was never rescinded."
+  },
+  {
+    "no": "Wholly no.",
+    "reason": "Every time someone says 'we don't need to document that, everyone knows it,' the thing becomes undocumented."
+  },
+  {
+    "no": "Flatly no.",
+    "reason": "The codebase that uses different conventions in different directories was maintained by teams that never talked to each other."
+  },
+  {
+    "no": "Plainly no.",
+    "reason": "A feature built on assumptions that have never been validated is a bet, not a plan."
+  },
+  {
+    "no": "Squarely no.",
+    "reason": "The infrastructure that was designed for peak traffic ten years ago is sized for a different product than the one you have now."
+  },
+  {
+    "no": "Outright no.",
+    "reason": "Every coupling in software is a cost paid during refactoring."
+  },
+  {
+    "no": "Point-blank no.",
+    "reason": "The team that has never measured the actual impact of a feature it shipped has never closed the feedback loop."
+  },
+  {
+    "no": "Straight-up no.",
+    "reason": "A secret management system that stores secrets in environment variables is better than plaintext. It is not the same as secret management."
+  },
+  {
+    "no": "Clean no.",
+    "reason": "If the only person who reviews certain things is on vacation, those things do not get reviewed."
+  },
+  {
+    "no": "Sharp no.",
+    "reason": "Every feature toggle that has no expiry date is a permanent branch in the code."
+  },
+  {
+    "no": "Blunt no.",
+    "reason": "The service that cannot tell you its own health is a service that relies on external observation."
+  },
+  {
+    "no": "Direct no.",
+    "reason": "An open source project that has not reviewed its dependencies for security vulnerabilities has not reviewed its security posture."
+  },
+  {
+    "no": "Frank no.",
+    "reason": "Every multi-threaded program that uses shared mutable state is correct until it is not, and when it is not, it is difficult to reproduce."
+  },
+  {
+    "no": "Honest no.",
+    "reason": "The team that never says no to new requests is a team that is always behind on its existing commitments."
+  },
+  {
+    "no": "Straight no.",
+    "reason": "A test that sleeps for a fixed duration to wait for an asynchronous result is not a test. It is optimism with a timer."
+  },
+  {
+    "no": "Simple no.",
+    "reason": "Every time you write a comment explaining what the code does, ask instead whether the code can be written to explain itself."
+  },
+  {
+    "no": "Pure no.",
+    "reason": "The product that charges for usage but cannot show users their usage is not a product they can manage."
+  },
+  {
+    "no": "Raw no.",
+    "reason": "If the infrastructure cannot be rebuilt from code, it has drifted from its definition."
+  },
+  {
+    "no": "Bare no.",
+    "reason": "Every time an engineer writes code that only they understand, they have reduced the bus factor by one."
+  },
+  {
+    "no": "Nein, danke.",
+    "reason": "The feature that was added to match a competitor will not differentiate the product. It will make it the same."
+  },
+  {
+    "no": "Non, merci.",
+    "reason": "If a deploy has no plan for what to do when it fails, the plan for when it fails is to panic."
+  },
+  {
+    "no": "Nee hoor.",
+    "reason": "Every type that can hold both valid and invalid states makes the code that processes it more complex."
+  },
+  {
+    "no": "Njet.",
+    "reason": "The team that cannot estimate because 'everything is uncertain' has not separated known unknowns from unknown unknowns."
+  },
+  {
+    "no": "Non senor.",
+    "reason": "An uptime dashboard that shows the past thirty days of five nines does not tell you about the last ten minutes."
+  },
+  {
+    "no": "Nein bitte.",
+    "reason": "The code that was written for a specific version of the requirements is often wrong for the next version."
+  },
+  {
+    "no": "Ei kiitos.",
+    "reason": "Every service that cannot be safely stopped is a service that cannot be safely operated."
+  },
+  {
+    "no": "Nee bedankt.",
+    "reason": "The design pattern applied where it does not fit is worse than no pattern at all."
+  },
+  {
+    "no": "Nein auf keinen Fall.",
+    "reason": "If the sprint demo shows features that do not work in production, the demo is not a demo. It is a preview."
+  },
+  {
+    "no": "Nej tack.",
+    "reason": "Every bug that was resolved by manually editing production data will recur."
+  },
+  {
+    "no": "Non certo.",
+    "reason": "The deploy script that was written by one person and only run by that person is not a deploy script. It is institutional knowledge."
+  },
+  {
+    "no": "Non assolutamente.",
+    "reason": "A cache that does not handle cache misses gracefully is not a cache. It is a single point of failure."
+  },
+  {
+    "no": "Nao obrigado.",
+    "reason": "Every undefined behavior in the code is defined by whatever the runtime happens to do that day."
+  },
+  {
+    "no": "Zeker niet hoor.",
+    "reason": "The API documentation that requires a logged-in account to view is not publicly accessible documentation."
+  },
+  {
+    "no": "Hayir tesekkurler.",
+    "reason": "If the database has no index on the foreign key, every join is slower than it needs to be."
+  },
+  {
+    "no": "La shukran.",
+    "reason": "Every time production configuration is managed by hand, the configuration is one human error away from an outage."
+  },
+  {
+    "no": "Lo toda.",
+    "reason": "The team that has never participated in game day exercises does not know how its incident response actually works."
+  },
+  {
+    "no": "Nahi shukriya.",
+    "reason": "An internal API with no versioning will break its consumers when it changes, and it will change."
+  },
+  {
+    "no": "Iie kekko.",
+    "reason": "The service that has been in beta for two years is not in beta. It is in production with reduced accountability."
+  },
+  {
+    "no": "Gamsahajiman aniyo.",
+    "reason": "Every time you fix a symptom instead of the cause, the cause continues to produce symptoms."
+  },
+  {
+    "no": "Xie xie dan bu.",
+    "reason": "The code that passes all tests but fails in production has tests that do not cover the failure mode."
+  },
+  {
+    "no": "Salamat pero hindi.",
+    "reason": "A team that considers documentation optional will produce systems that require experts to operate."
+  },
+  {
+    "no": "Terima kasih tapi tidak.",
+    "reason": "Every assumption baked into the data model is an assumption the system cannot contradict, even when it should."
+  },
+  {
+    "no": "Cam on nhung khong.",
+    "reason": "The service that has never been tested under partial failure conditions has untested behavior under partial failure conditions."
+  },
+  {
+    "no": "Asante lakini hapana.",
+    "reason": "If no one knows which queries are the slowest in production, no one is working on the right performance problems."
+  },
+  {
+    "no": "Shukriya par nahi.",
+    "reason": "Every time a production bug is fixed without a test, the fix is not protected."
+  },
+  {
+    "no": "Arigato demo iie.",
+    "reason": "The architecture that optimizes for the read path at the expense of the write path will be redesigned when writes become the bottleneck."
+  },
+  {
+    "no": "Danke nein.",
+    "reason": "A team that ships on Fridays either trusts its systems completely or has not had a bad Friday yet."
+  },
+  {
+    "no": "Merci non.",
+    "reason": "Every place where magic strings appear, a constant should have been defined instead."
+  },
+  {
+    "no": "Grazie no.",
+    "reason": "The alert that fires before the problem is actually affecting users is better than the alert that fires after."
+  },
+  {
+    "no": "Bedankt nee.",
+    "reason": "If the team does not know how its users find bugs, the team is not learning from users."
+  },
+  {
+    "no": "Takk nei.",
+    "reason": "Every service that requires its callers to handle backpressure has transferred the hard problem to its callers."
+  },
+  {
+    "no": "Kiitos ei.",
+    "reason": "The code review that comments on every issue equally has not prioritized what actually matters."
+  },
+  {
+    "no": "Hvala ne.",
+    "reason": "A data migration that cannot be previewed before running is a migration that cannot be verified before it is too late."
+  },
+  {
+    "no": "Tesekkurler hayir.",
+    "reason": "Every time a request fails silently, a user wonders whether they did something wrong."
+  },
+  {
+    "no": "Spasibo net.",
+    "reason": "The runbook that assumes everything is working correctly is not a runbook. It is a setup guide."
+  },
+  {
+    "no": "Dziekuje nie.",
+    "reason": "If the logs are structured but the queries against them are not, the structure has not been made useful."
+  },
+  {
+    "no": "Dekuji ne.",
+    "reason": "Every line of code that is never executed in production is a line of code that has not been tested by production."
+  },
+  {
+    "no": "Koszonom nem.",
+    "reason": "The team that measures lines of code as a productivity metric is measuring the wrong thing and will optimize toward it."
+  },
+  {
+    "no": "Multumesc nu.",
+    "reason": "A service that requires a human to approve routine automated tasks is not automated. It is supervised."
+  },
+  {
+    "no": "Hvala ne hvala.",
+    "reason": "Every interface with only one implementation is an interface that was added before it was needed."
+  },
+  {
+    "no": "Tak nej.",
+    "reason": "The system that fails in new and interesting ways is a system that has not been operated long enough to know how it fails."
+  },
+  {
+    "no": "Kitos ne.",
+    "reason": "If the code is hard to delete, it is not modular."
+  },
+  {
+    "no": "Paldies ne.",
+    "reason": "Every validation that happens only on the client can be bypassed by any user with basic knowledge of HTTP."
+  },
+  {
+    "no": "Tack nej.",
+    "reason": "The integration that does not handle partial success is an integration that will silently drop data during failures."
+  },
+  {
+    "no": "Obrigado nao.",
+    "reason": "A team sprint that does not reserve capacity for unplanned work will be interrupted by unplanned work."
+  },
+  {
+    "no": "Not a snowball's chance.",
+    "reason": "Every call to an external service that does not have a fallback will fail when that service is unavailable."
+  },
+  {
+    "no": "Not a snowball's chance in hell.",
+    "reason": "The product that has been in stealth for two years has not validated its assumptions with users."
+  },
+  {
+    "no": "When hell freezes over.",
+    "reason": "If the build is not deterministic, then two builds from the same commit can produce different artifacts, and you do not know which one is in production."
+  },
+  {
+    "no": "In your dreams.",
+    "reason": "Every lock that is acquired but not released is a future deadlock."
+  },
+  {
+    "no": "In a pig's eye.",
+    "reason": "The test suite that is only run before a release is not continuous integration. It is pre-release verification."
+  },
+  {
+    "no": "On the twelfth of never.",
+    "reason": "If the service cannot handle an empty queue, the service has not been tested from a cold start."
+  },
+  {
+    "no": "Not in your wildest dreams.",
+    "reason": "Every database query that fetches more columns than it uses is paying a network and memory tax it did not earn."
+  },
+  {
+    "no": "Don't count on it.",
+    "reason": "The deployment that requires the previous one to succeed is a deployment that propagates failures forward."
+  },
+  {
+    "no": "Count on it not happening.",
+    "reason": "If the design meeting has no outcome, the design has not been decided. It has been discussed."
+  },
+  {
+    "no": "You can forget it.",
+    "reason": "Every time a service returns a generic five-hundred error, someone has to read the logs to find the real error."
+  },
+  {
+    "no": "Forget it entirely.",
+    "reason": "The code that grew in the absence of a style guide will resist the style guide when it finally arrives."
+  },
+  {
+    "no": "Put it out of your mind.",
+    "reason": "A team that never ships experiments does not learn from experiments."
+  },
+  {
+    "no": "Banish the thought.",
+    "reason": "Every environment that cannot be reproduced in code has configuration that lives only in someone's memory."
+  },
+  {
+    "no": "Think again.",
+    "reason": "The service that was designed for consistency will have availability problems. The service designed for availability will have consistency problems. These are the same tradeoff expressed differently."
+  },
+  {
+    "no": "Think very carefully.",
+    "reason": "If the product does not have a pricing page that users can understand, the product has a trust problem."
+  },
+  {
+    "no": "Reconsider entirely.",
+    "reason": "Every time the same data is fetched from the database in two consecutive requests, caching deserves a conversation."
+  },
+  {
+    "no": "Rethink that.",
+    "reason": "The company that has not defined what success looks like cannot recognize it when it arrives."
+  },
+  {
+    "no": "Go back to the drawing board.",
+    "reason": "An API that requires knowledge of undocumented behavior to use correctly is not an API. It is a puzzle with documentation gaps."
+  },
+  {
+    "no": "Start over.",
+    "reason": "Every migration that modifies data instead of migrating it is a migration that cannot be safely reversed."
+  },
+  {
+    "no": "Try a different approach.",
+    "reason": "The team that uses the same retrospective format every time will stop noticing what the format misses."
+  },
+  {
+    "no": "Come back with something else.",
+    "reason": "If the alert page does not say what to do, the on-call engineer is improvising at three in the morning."
+  },
+  {
+    "no": "That won't fly.",
+    "reason": "Every time a new hire asks a question and is told 'it's just how we do it,' knowledge transfer has failed."
+  },
+  {
+    "no": "That doesn't fly.",
+    "reason": "The test coverage that does not cover the production code paths that matter is coverage theater."
+  },
+  {
+    "no": "That's a no-go.",
+    "reason": "If the team cannot deploy without the founder's approval, the founder is the release manager."
+  },
+  {
+    "no": "That's not going to work.",
+    "reason": "Every API that lacks pagination is an API that will return increasingly large responses as the dataset grows."
+  },
+  {
+    "no": "That's not happening.",
+    "reason": "The service that has only been tested at ten percent of expected traffic has not been tested."
+  },
+  {
+    "no": "That's not going to fly.",
+    "reason": "If the product tutorial teaches users how to use the product rather than how to solve their problem, the tutorial is teaching the wrong thing."
+  },
+  {
+    "no": "That's not flying with me.",
+    "reason": "Every time you choose to suppress a deprecation warning instead of fixing it, the warning becomes permanent."
+  },
+  {
+    "no": "That's not going anywhere.",
+    "reason": "The endpoint that authenticates but does not authorize is half of an access control system."
+  },
+  {
+    "no": "That is not going to happen.",
+    "reason": "If nobody owns the reliability of a service, nobody is accountable when it goes down."
+  },
+  {
+    "no": "That is never happening.",
+    "reason": "Every session that does not expire is a session that outlasts the user's intent."
+  },
+  {
+    "no": "Oh no.",
+    "reason": "The tool that requires three hours of training to use is a tool that slows down everyone who uses it rarely."
+  },
+  {
+    "no": "Oh, absolutely not.",
+    "reason": "If the A/B test does not have a minimum detectable effect defined before it runs, the results cannot be interpreted correctly."
+  },
+  {
+    "no": "Oh, definitely not.",
+    "reason": "Every commit message that answers 'what' but not 'why' is half a commit message."
+  },
+  {
+    "no": "Oh, certainly not.",
+    "reason": "The system that was designed to be extended but never documented for extension cannot be extended by anyone new."
+  },
+  {
+    "no": "Oh, never.",
+    "reason": "If the infrastructure is reproducible but the application configuration is not, the infrastructure is only half reproducible."
+  },
+  {
+    "no": "Oh, come on.",
+    "reason": "Every nested conditional that can be replaced with an early return is a conditional waiting for someone patient enough to refactor it."
+  },
+  {
+    "no": "Come on now.",
+    "reason": "The incident that nobody writes up is the incident whose lessons are never shared."
+  },
+  {
+    "no": "Surely not.",
+    "reason": "A merge to main that is done as 'just a small cleanup' and breaks the build is a merge that was not treated with the respect main deserves."
+  },
+  {
+    "no": "Surely you jest.",
+    "reason": "If the feature request is unclear and ships anyway, the result will be unclear too."
+  },
+  {
+    "no": "You cannot be serious.",
+    "reason": "Every background task that is not idempotent will produce duplicates when run twice."
+  },
+  {
+    "no": "You must be joking.",
+    "reason": "The team that defines quality as 'it works' has not defined quality."
+  },
+  {
+    "no": "You cannot mean that.",
+    "reason": "If the product does not have a way to report bugs, bugs will be reported in reviews, social media, and support tickets instead."
+  },
+  {
+    "no": "You are having a laugh.",
+    "reason": "Every time a timeout is set to infinity, the system has declared that waiting forever is acceptable."
+  },
+  {
+    "no": "Are you serious?",
+    "reason": "The team that has never read its own architecture documentation does not know whether it is still accurate."
+  },
+  {
+    "no": "You cannot be right.",
+    "reason": "If the product cannot function offline even briefly, the product has a single point of failure called the internet."
+  },
+  {
+    "no": "That cannot be right.",
+    "reason": "Every service that handles business logic in middleware is business logic that is invisible to the services using that middleware."
+  },
+  {
+    "no": "Absolutely never.",
+    "reason": "The data that is deleted but not actually deleted is not deleted. It is hidden."
+  },
+  {
+    "no": "Definitely never.",
+    "reason": "If the team cannot point to a user problem the sprint solved, the sprint may have produced output without outcome."
+  },
+  {
+    "no": "Certainly never.",
+    "reason": "Every API that uses GET for operations that change state is an API that cannot be bookmarked, cached, or safely retried."
+  },
+  {
+    "no": "Positively never.",
+    "reason": "The team that never has slack time never has time to address technical debt."
+  },
+  {
+    "no": "Emphatically never.",
+    "reason": "If the system cannot handle its own scale, it is not ready for its own scale."
+  },
+  {
+    "no": "Categorically never.",
+    "reason": "Every validation error that returns a five-hundred instead of a four-hundred has confused a server error with a client error."
+  },
+  {
+    "no": "Unequivocally never.",
+    "reason": "The infrastructure that is provisioned by clicking in the console cannot be peer-reviewed."
+  },
+  {
+    "no": "Resolutely never.",
+    "reason": "If the developer laptop cannot run the test suite, the tests are not being run by developers."
+  },
+  {
+    "no": "Firmly never.",
+    "reason": "Every endpoint with no documentation is a contract that only the server knows about."
+  },
+  {
+    "no": "Irrevocably no.",
+    "reason": "The sprint planning that does not account for the time spent in meetings during the sprint is not an accurate plan."
+  },
+  {
+    "no": "Permanently no.",
+    "reason": "If the team lead decides everything, the team is not self-organizing. It is supervised."
+  },
+  {
+    "no": "Unconditionally no.",
+    "reason": "Every time code is added to fix a problem caused by other code, the net complexity increases even if no net functionality is added."
+  },
+  {
+    "no": "Unquestionably no.",
+    "reason": "The logging framework that formats logs differently in each service makes cross-service debugging unnecessarily difficult."
+  },
+  {
+    "no": "Indisputably no.",
+    "reason": "If the backlog contains items older than one year that have never been prioritized, the backlog has noise that is obscuring signal."
+  },
+  {
+    "no": "Indubitably not.",
+    "reason": "Every data export that is not tested by importing it back is an export with an unknown level of fidelity."
+  },
+  {
+    "no": "Manifestly not.",
+    "reason": "The team that rewrites its tooling every time a new technology becomes popular is not improving. It is migrating."
+  },
+  {
+    "no": "Patently not.",
+    "reason": "If the service returns different results for the same query on different calls, it is not deterministic, and non-deterministic services are hard to test."
+  },
+  {
+    "no": "Evidently not.",
+    "reason": "Every time a developer says 'trust me, it works,' they are removing the opportunity for someone else to verify it."
+  },
+  {
+    "no": "Apparently not.",
+    "reason": "The design system that is not used by the design team is not the design system."
+  },
+  {
+    "no": "Seemingly not.",
+    "reason": "If the service does not have a maximum request size limit, it can be made to consume unlimited memory with a single large request."
+  },
+  {
+    "no": "Arguably not.",
+    "reason": "Every time a team says it is blocked, it is either blocked and needs help, or has a blocker that it has not escalated, and both situations require action."
+  },
+  {
+    "no": "Ostensibly not.",
+    "reason": "The performance optimization that improves a benchmark but not user-perceived latency has optimized the wrong thing."
+  },
+  {
+    "no": "Technically no.",
+    "reason": "If the system processes work correctly when healthy but corrupts state when it crashes mid-operation, it is not correct."
+  },
+  {
+    "no": "Effectively no.",
+    "reason": "Every team that says 'we don't have time for documentation' is creating a future where they don't have time for anything else either."
+  },
+  {
+    "no": "Essentially no.",
+    "reason": "The deployment that takes an hour and the deployment that takes five minutes have different risk profiles for every change."
+  },
+  {
+    "no": "Fundamentally no.",
+    "reason": "If the business logic and the presentation logic are in the same layer, changing one always risks breaking the other."
+  },
+  {
+    "no": "Basically no.",
+    "reason": "Every time a cron job is the answer, ask whether a proper queue would be a better question."
+  },
+  {
+    "no": "Primarily no.",
+    "reason": "The feature that cannot be disabled without a code change cannot be disabled in an emergency."
+  },
+  {
+    "no": "Generally no.",
+    "reason": "If the team has to ask for data to measure its own performance, it does not own its own metrics."
+  },
+  {
+    "no": "Principally no.",
+    "reason": "Every job queue that does not have a dead letter queue has no way to examine messages that could not be processed."
+  },
+  {
+    "no": "Largely no.",
+    "reason": "The service that handles timeouts by returning partial results is better than the service that blocks forever, but neither is ideal."
+  },
+  {
+    "no": "Mostly no.",
+    "reason": "If the only feedback users can give is a star rating, the product is learning very little from very many people."
+  },
+  {
+    "no": "Predominantly no.",
+    "reason": "Every time a team defines the interface after the implementation, the interface reflects the implementation's convenience rather than the caller's need."
+  },
+  {
+    "no": "Chiefly no.",
+    "reason": "The system that routes around failures is more resilient than the system that prevents failures, because failures cannot always be prevented."
+  },
+  {
+    "no": "Mainly no.",
+    "reason": "If the rollback procedure has not been tested since it was written, it has not been tested."
+  },
+  {
+    "no": "Overwhelmingly no.",
+    "reason": "Every time code is not reviewed because 'it's just a small change,' the small change becomes the change that broke everything."
+  },
+  {
+    "no": "Substantially no.",
+    "reason": "The CI system that sends emails nobody reads has email notifications nobody reads. The problem is not the emails."
+  },
+  {
+    "no": "Considerably no.",
+    "reason": "If the developer does not know what the test is testing, the test is not serving its purpose."
+  },
+  {
+    "no": "Immensely no.",
+    "reason": "Every service that has more configuration than behavior has been designed around options rather than decisions."
+  },
+  {
+    "no": "Tremendously no.",
+    "reason": "The code that was written by the most experienced person on the team without explanation is the most expensive code in the codebase."
+  },
+  {
+    "no": "Enormously no.",
+    "reason": "If an engineer has to be called to fix a routine operational task, the task is not routine. It is a toil that has not been automated."
+  },
+  {
+    "no": "Profoundly no.",
+    "reason": "Every async operation that does not surface its status is an operation the user is waiting for without information."
+  },
+  {
+    "no": "Deeply no.",
+    "reason": "The system that works when the team is paying attention and breaks when they stop is not a system. It is a process that requires supervision."
+  },
+  {
+    "no": "Sincerely no.",
+    "reason": "If the sprint goal changes every sprint because the product direction changes every sprint, the planning is not working."
+  },
+  {
+    "no": "Genuinely no.",
+    "reason": "Every time a service trusts input from another internal service without validation, a compromise of that service compromises this one too."
+  },
+  {
+    "no": "Truly no.",
+    "reason": "The team that only learns what went wrong in incidents will learn primarily from failure rather than from the successes it should be reproducing."
+  },
+  {
+    "no": "Honestly no.",
+    "reason": "If the log entry does not include the timestamp, the request ID, and the service name, it cannot be correlated with anything else."
+  },
+  {
+    "no": "Sincerely, no.",
+    "reason": "Every deprecated feature that cannot be removed because someone is using it is a feature that has become permanent."
+  },
+  {
+    "no": "Genuinely, no.",
+    "reason": "The infrastructure cost that has never been attributed to a team is a cost that no team is incentivized to reduce."
+  },
+  {
+    "no": "Truly, no.",
+    "reason": "If the service cannot process its own output as input, the output format has not been validated end to end."
+  },
+  {
+    "no": "Regret to inform you: no.",
+    "reason": "Every product that ships without a privacy policy has made a legal decision without legal input."
+  },
+  {
+    "no": "Obliged to say no.",
+    "reason": "The build that only catches compilation errors is not a build. It is a syntax check."
+  },
+  {
+    "no": "Compelled to decline.",
+    "reason": "If the system cannot be explained to a new engineer in a day, it cannot be maintained by a new engineer in a month."
+  },
+  {
+    "no": "Forced to say no.",
+    "reason": "Every service that uses synchronous calls for long-running operations will hold connections open for the duration of those operations."
+  },
+  {
+    "no": "Constrained to decline.",
+    "reason": "The team that only gives positive feedback does not help its members grow."
+  },
+  {
+    "no": "Obligated to refuse.",
+    "reason": "If the test data does not include edge cases, the edge cases have not been tested."
+  },
+  {
+    "no": "Unable to oblige.",
+    "reason": "Every microservice that communicates with every other microservice is not a microservice architecture. It is a monolith with network calls."
+  },
+  {
+    "no": "Unable to comply.",
+    "reason": "The system that requires warm-up time before it can handle production traffic cannot scale without downtime."
+  },
+  {
+    "no": "Cannot oblige.",
+    "reason": "If the data pipeline does not emit metrics about its own performance, the pipeline cannot be diagnosed when it slows down."
+  },
+  {
+    "no": "Cannot agree.",
+    "reason": "Every time a team celebrates complexity as cleverness, simplicity loses a champion."
+  },
+  {
+    "no": "Won't happen.",
+    "reason": "The API that requires OAuth for every call but does not support token refresh cannot maintain long-running sessions."
+  },
+  {
+    "no": "Shan't happen.",
+    "reason": "If the codebase compiles with warnings, the warnings are not warnings. They are the new baseline."
+  },
+  {
+    "no": "Can't happen.",
+    "reason": "Every service that logs errors but does not alert on them has monitoring without response."
+  },
+  {
+    "no": "Won't do.",
+    "reason": "The team that measures itself by how busy it is will be very busy while delivering very little."
+  },
+  {
+    "no": "Can't do.",
+    "reason": "If the database does not have row-level locking, concurrent writes can corrupt data without anyone noticing."
+  },
+  {
+    "no": "Shan't do.",
+    "reason": "Every abstraction that cannot be named clearly is an abstraction that has not been understood clearly."
+  },
+  {
+    "no": "Nope, never.",
+    "reason": "The service that consumes one hundred percent CPU under normal load has no headroom for traffic spikes."
+  },
+  {
+    "no": "No, never.",
+    "reason": "If the code review process adds two days to every change, small changes will be bundled into large ones to reduce the overhead."
+  },
+  {
+    "no": "Never, no.",
+    "reason": "Every time an engineer says 'I'll fix it later,' the word 'later' is doing a lot of unreasonable work."
+  },
+  {
+    "no": "Never ever.",
+    "reason": "The product that cannot be used by its own employees has not been tested by people with the most context."
+  },
+  {
+    "no": "No, no, no.",
+    "reason": "If the system does not support blue-green deployments, every release is a moment where the old behavior and the new behavior do not both exist."
+  },
+  {
+    "no": "Nope, nope, nope.",
+    "reason": "Every time a data structure is chosen for familiarity rather than fit, the code that uses it is more complex than it needs to be."
+  },
+  {
+    "no": "No no no no no.",
+    "reason": "The webhook that does not retry on failure has delivered the event zero or one times, and you cannot know which without a receipt."
+  },
+  {
+    "no": "Absolutely, positively not.",
+    "reason": "If the team cannot draw the system architecture from memory, the architecture may be more complex than necessary or less understood than it should be."
+  },
+  {
+    "no": "Categorically and absolutely not.",
+    "reason": "Every third-party API that does not have a sandbox has made it impossible to develop against it without affecting production data."
+  },
+  {
+    "no": "Firmly and categorically not.",
+    "reason": "The system that can only be understood by reading the git log has not been documented."
+  },
+  {
+    "no": "Wholly and completely no.",
+    "reason": "If the service does not fail fast on bad configuration, it will fail slowly and mysteriously later."
+  },
+  {
+    "no": "Utterly and entirely no.",
+    "reason": "Every time a developer ships something they would be embarrassed to explain in a code review, a code review was skipped."
+  },
+  {
+    "no": "Through and through no.",
+    "reason": "The queue that has never been monitored for depth is a queue that could be full and no one would know."
+  },
+  {
+    "no": "No, not now, not ever.",
+    "reason": "If the test suite passes with code that is commented out, the test suite does not cover that code."
+  },
+  {
+    "no": "No, not yesterday, not today, not tomorrow.",
+    "reason": "Every silent permission escalation is a privilege that was granted without a decision."
+  },
+  {
+    "no": "No in any language.",
+    "reason": "The service that cannot report its own version number is a service that cannot be diagnosed during an incident."
+  },
+  {
+    "no": "No in every language.",
+    "reason": "If the code depends on the order of map iteration, the code depends on undefined behavior."
+  },
+  {
+    "no": "No, regardless.",
+    "reason": "Every file that has been in the 'do not touch' category longer than two years is either critical or forgotten, and you cannot tell which without touching it."
+  },
+  {
+    "no": "No, irrespective.",
+    "reason": "The product that never sunsets old features becomes the product that nobody fully understands, including the people who built it."
+  },
+  {
+    "no": "No, notwithstanding.",
+    "reason": "If the team only reads metrics when something breaks, the metrics are being used for diagnosis rather than prevention."
+  },
+  {
+    "no": "No, nevertheless.",
+    "reason": "Every time a service is redesigned because it is hard to maintain, ask whether the difficulty is in the design or in the lack of documentation."
+  },
+  {
+    "no": "No, even so.",
+    "reason": "The build process that is not reproducible is a build process that produces artifacts whose provenance cannot be verified."
+  },
+  {
+    "no": "No, that said.",
+    "reason": "If the team is surprised by its own deployments, something about the deployment process is not well understood."
+  },
+  {
+    "no": "No, regardless of that.",
+    "reason": "Every feature that was shipped to meet a deadline and then never improved has been left in the state it was in when the team was most rushed."
+  },
+  {
+    "no": "No, even then.",
+    "reason": "The service that has not been exercised under real load since it was deployed does not have validated performance characteristics."
+  },
+  {
+    "no": "No, even still.",
+    "reason": "If the commit that introduced the bug is not identified in the postmortem, the root cause analysis is incomplete."
+  },
+  {
+    "no": "No, all the same.",
+    "reason": "Every time the team is asked to estimate a project that has not been designed yet, the estimate is a fiction that everyone agrees to treat as a plan."
+  },
+  {
+    "no": "Nope all around.",
+    "reason": "The deployment that succeeds because nothing changed is not evidence of a good deployment process."
+  },
+  {
+    "no": "Nah all day.",
+    "reason": "If the product has a feature for every request and no principle for declining requests, the product has no coherent vision."
+  },
+  {
+    "no": "Nah all night.",
+    "reason": "Every service that writes to multiple databases in the same transaction has a distributed transaction that the infrastructure may not support."
+  },
+  {
+    "no": "Nope all week.",
+    "reason": "The team that cannot ship without affecting other teams is not independent."
+  },
+  {
+    "no": "No all year.",
+    "reason": "If the bug tracker does not have categories, every bug lives in the same undifferentiated pile."
+  },
+  {
+    "no": "No forever.",
+    "reason": "Every API key that has full access when it only needs read access violates the principle of least privilege."
+  },
+  {
+    "no": "No for eternity.",
+    "reason": "The product feature that requires understanding all other features before it can be used is not discoverable. It is a prerequisite tree."
+  },
+  {
+    "no": "No in perpetuity.",
+    "reason": "If the error handling in production is stricter than in tests, the tests will not find the errors the production code will encounter."
+  },
+  {
+    "no": "No ad infinitum.",
+    "reason": "Every shared mutable singleton is a global variable that has been given an object-oriented name."
+  },
+  {
+    "no": "No through the ages.",
+    "reason": "The service that has a dependency on a library that has a dependency on a library that is unmaintained is on borrowed time."
+  },
+  {
+    "no": "No for the foreseeable future.",
+    "reason": "If the team cannot define its quality bar, it cannot maintain it."
+  },
+  {
+    "no": "No from here to eternity.",
+    "reason": "Every migration that runs on startup is a startup delay that scales with the number of migrations."
+  },
+  {
+    "no": "No now and no later.",
+    "reason": "The feature that no one turned off when it was failing silently for a week was failing silently for a week."
+  },
+  {
+    "no": "No today and no tomorrow.",
+    "reason": "If the sprint capacity does not account for code review time, code review is being treated as free."
+  },
+  {
+    "no": "No yesterday and no today.",
+    "reason": "Every system that prioritizes availability will eventually serve stale data. Every system that prioritizes consistency will eventually be unavailable. Choose deliberately."
+  },
+  {
+    "no": "Nay verily.",
+    "reason": "The product launch with no monitoring is a launch where problems are discovered by users, not by the team."
+  },
+  {
+    "no": "Nay forsooth.",
+    "reason": "If the team does not have a shared definition of technical debt, each member is managing a different thing when they say they are managing technical debt."
+  },
+  {
+    "no": "Nay, good sir.",
+    "reason": "Every time a third-party service goes down and takes your product with it, you have discovered an undeclared dependency."
+  },
+  {
+    "no": "Nay, good madam.",
+    "reason": "The test that tests the mock instead of the behavior is not providing confidence about the behavior."
+  },
+  {
+    "no": "Methinks not.",
+    "reason": "If the product does not let users export their own data, it is holding data hostage."
+  },
+  {
+    "no": "I think thee not.",
+    "reason": "Every time an engineer is the only person who can approve a change to a critical system, that engineer is a single point of failure."
+  },
+  {
+    "no": "Verily not.",
+    "reason": "The system that cannot be introspected cannot be understood from the outside, and systems that cannot be understood from the outside cannot be operated safely."
+  },
+  {
+    "no": "Forsooth, no.",
+    "reason": "If the design review happens after the code is written, the review is a code review, not a design review."
+  },
+  {
+    "no": "Prithee, no.",
+    "reason": "Every time the solution to a slow query is a bigger machine, the query has been given more resources rather than been improved."
+  },
+  {
+    "no": "Indeed not.",
+    "reason": "The product that cannot be used without a tutorial has a discoverability problem."
+  },
+  {
+    "no": "Quite not.",
+    "reason": "If the build pipeline has never been tested by someone other than its author, its behavior under edge cases is unknown."
+  },
+  {
+    "no": "Rather not.",
+    "reason": "Every permission that is granted by default and must be revoked rather than granted explicitly is a permission that will not be revoked."
+  },
+  {
+    "no": "Quite right not to.",
+    "reason": "The service that returns success before it has completed the work it was asked to do has not completed the work."
+  },
+  {
+    "no": "Jolly well not.",
+    "reason": "If the team's velocity measurement does not account for bugs found after release, it is measuring output, not outcomes."
+  },
+  {
+    "no": "Absolutely no way.",
+    "reason": "Every configuration file that is not under version control is a configuration that cannot be peer-reviewed or rolled back."
+  },
+  {
+    "no": "There is no way.",
+    "reason": "The system that requires manual steps that cannot be scripted is a system that introduces human error at those steps."
+  },
+  {
+    "no": "There is no chance.",
+    "reason": "If the service does not expose its metrics in a standard format, it cannot be integrated with standard monitoring tools."
+  },
+  {
+    "no": "There is simply no way.",
+    "reason": "Every feature that was built because the competitor has it and not because users need it is a feature built for the wrong audience."
+  },
+  {
+    "no": "There is absolutely no chance.",
+    "reason": "The code that works by accident is more dangerous than code that fails by design."
+  },
+  {
+    "no": "It is not possible.",
+    "reason": "If the alert is firing but nobody is being woken up, the on-call schedule and the alert routing are misconfigured."
+  },
+  {
+    "no": "That is simply not possible.",
+    "reason": "Every event that is published without a schema can be parsed differently by different consumers."
+  },
+  {
+    "no": "That is not feasible.",
+    "reason": "The team that treats all requests as equally important treats none of them as important."
+  },
+  {
+    "no": "That is not viable.",
+    "reason": "If the service cannot explain why a request failed, the client cannot decide whether to retry."
+  },
+  {
+    "no": "That is not workable.",
+    "reason": "Every configuration that is environment-specific and not documented is a configuration that will be set incorrectly in a new environment."
+  },
+  {
+    "no": "That is not acceptable.",
+    "reason": "The test data set that does not include examples of every required field missing is not testing required field validation."
+  },
+  {
+    "no": "That is not appropriate.",
+    "reason": "If the service always returns the same response for a given input, it is stateless and can be scaled horizontally. If it does not, it cannot."
+  },
+  {
+    "no": "That is not suitable.",
+    "reason": "Every distributed system that assumes zero message loss has not been tested under real network conditions."
+  },
+  {
+    "no": "That is not permissible.",
+    "reason": "The API that has not changed in three years is not stable. It is either serving a very narrow use case or no longer actively maintained."
+  },
+  {
+    "no": "That is not allowable.",
+    "reason": "If the health check passes but the service cannot serve traffic, the health check is measuring the wrong thing."
+  },
+  {
+    "no": "That is not sanctioned.",
+    "reason": "Every time a team skips the design phase because 'we know what we're building,' the unknowns surface during implementation instead of planning."
+  },
+  {
+    "no": "That is not authorized.",
+    "reason": "The dependency that cannot be updated without breaking something is a dependency that owns more of the codebase than it should."
+  },
+  {
+    "no": "That is not endorsed.",
+    "reason": "If the service has no documentation for its failure modes, the people operating it will be surprised by its failure modes."
+  },
+  {
+    "no": "That is not recommended.",
+    "reason": "Every time the same engineer picks up the same type of task, specialization is happening, and specialization creates bus factors."
+  },
+  {
+    "no": "That is not advisable.",
+    "reason": "The system that only behaves correctly when all components are up has not been designed for resilience."
+  },
+  {
+    "no": "That is not prudent.",
+    "reason": "If the team does not control its own deployment pipeline, it does not control its own release cadence."
+  },
+  {
+    "no": "That is not wise.",
+    "reason": "Every line of dead code is a line that someone will wonder about, investigate, and eventually delete after spending more time on it than it deserved."
+  },
+  {
+    "no": "That is unwise.",
+    "reason": "The status update that goes out after the incident is resolved is a status update that did not help users during the incident."
+  },
+  {
+    "no": "That is inadvisable.",
+    "reason": "If the team makes no decisions without consensus, the team will make no decisions quickly."
+  },
+  {
+    "no": "That is ill-advised.",
+    "reason": "Every service that has never been restarted in production has state that has been running continuously since the last deployment."
+  },
+  {
+    "no": "That is imprudent.",
+    "reason": "The team that has not run a fire drill does not know how it will behave in a fire."
+  },
+  {
+    "no": "That is unacceptable.",
+    "reason": "If the documentation has not been updated since the code changed, the documentation describes a system that no longer exists."
+  },
+  {
+    "no": "That is unreasonable.",
+    "reason": "Every time you deploy code that has not been read by at least one other person, you are the only check that code passed."
+  },
+  {
+    "no": "That is untenable.",
+    "reason": "The product that has never asked its users what they would do if it disappeared does not know how much it is valued."
+  },
+  {
+    "no": "That is unconscionable.",
+    "reason": "If the pipeline runs on every commit but only the last run matters, the intermediate runs are consuming resources without producing value."
+  },
+  {
+    "no": "That is indefensible.",
+    "reason": "Every assumption that has not been tested is a bet that has not been resolved."
+  },
+  {
+    "no": "That is unjustifiable.",
+    "reason": "The team that cannot describe its own technical vision is a team waiting to be told what to build."
+  },
+  {
+    "no": "That is unsustainable.",
+    "reason": "If the engineering culture requires sixty-hour weeks to ship on time, the timeline is wrong, not the engineers."
+  },
+  {
+    "no": "That is unthinkable.",
+    "reason": "Every ORM query that issues a query per row in a result set has created a classic N+1 problem in disguise."
+  },
+  {
+    "no": "That is inconceivable.",
+    "reason": "The incident that could not be resolved without escalating to the original engineer shows that knowledge transfer has not happened."
+  },
+  {
+    "no": "That is incomprehensible.",
+    "reason": "Every third-party dependency added to a project is a future version conflict waiting for the right moment to appear."
+  },
+  {
+    "no": "That is inexcusable.",
+    "reason": "If the service cannot start without network access, it cannot be developed without network access."
+  },
+  {
+    "no": "That is intolerable.",
+    "reason": "The codebase that has never had a security audit has never had its assumptions about security tested."
+  },
+  {
+    "no": "That is beyond the pale.",
+    "reason": "Every time a feature is documented before it is built, the implementation is held to a written contract."
+  },
+  {
+    "no": "That is beyond reason.",
+    "reason": "The team that does not talk about what it does not know will not discover what it does not know until it matters."
+  },
+  {
+    "no": "That is beyond the limit.",
+    "reason": "If the monitoring threshold was set once and never revisited, it was calibrated for a system that no longer exists."
+  },
+  {
+    "no": "That is beyond comprehension.",
+    "reason": "Every timeout value that was chosen arbitrarily is a system behavior that was designed accidentally."
+  },
+  {
+    "no": "That is beyond possibility.",
+    "reason": "The test suite that never catches bugs is not finding bugs, not proving the code is correct."
+  },
+  {
+    "no": "Out of the realm of possibility.",
+    "reason": "If the deployment process has no record of what was deployed and when, the deployment process is undocumented."
+  },
+  {
+    "no": "Not within the realm of possibility.",
+    "reason": "Every password that is changed because it was shared is a password that was shared."
+  },
+  {
+    "no": "Outside the bounds of possibility.",
+    "reason": "The technical decision that is irreversible is a decision that should have had more time spent on it."
+  },
+  {
+    "no": "Beyond any reasonable expectation.",
+    "reason": "If the team ships the minimum viable product and then moves to the next product, the product was never viable."
+  },
+  {
+    "no": "Against all reason.",
+    "reason": "Every service that uses a shared secret instead of mutual TLS trusts the network more than it should."
+  },
+  {
+    "no": "Against better judgment.",
+    "reason": "The process that was built to prevent a past mistake will eventually prevent progress."
+  },
+  {
+    "no": "Against my better judgment.",
+    "reason": "If the feature could not be finished in the sprint, it should not have been started in the sprint."
+  },
+  {
+    "no": "No, against all odds.",
+    "reason": "Every access log that is not reviewed is a log of activity that nobody is monitoring."
+  },
+  {
+    "no": "No, despite everything.",
+    "reason": "The code review tool that requires a four-step approval process for a one-line fix creates friction that accumulates into skipped reviews."
+  },
+  {
+    "no": "No, regardless of the circumstances.",
+    "reason": "If the alert fires less than once a month, the team has likely forgotten how to respond to it."
+  },
+  {
+    "no": "Not under any set of circumstances.",
+    "reason": "Every schema change that is backward-incompatible is a change that requires all consumers to be updated simultaneously."
+  },
+  {
+    "no": "Not for any reason whatsoever.",
+    "reason": "The system that cannot be observed cannot be reasoned about without guessing."
+  },
+  {
+    "no": "Not for any conceivable reason.",
+    "reason": "If the feature does not support undo, the user must be certain before they act, and certainty is a high bar."
+  },
+  {
+    "no": "Not at any price.",
+    "reason": "Every time a system is patched instead of upgraded, the gap between the patch level and the current version grows."
+  },
+  {
+    "no": "Not at any cost.",
+    "reason": "The documentation that answers the question everyone asks is worth more than the documentation that answers the question nobody asks."
+  },
+  {
+    "no": "Not at any rate.",
+    "reason": "If the integration test environment is too expensive to run on every commit, the tests will not be run on every commit."
+  },
+  {
+    "no": "No chance at all.",
+    "reason": "Every service that depends on another service's internal data model is a service that will break when that model changes."
+  },
+  {
+    "no": "Not the slightest chance.",
+    "reason": "The product that ships without an error boundary will show users the full stack trace when something goes wrong."
+  },
+  {
+    "no": "Not the faintest chance.",
+    "reason": "If the database credentials are the same in all environments, a mistake in one environment can affect all environments."
+  },
+  {
+    "no": "Not the remotest chance.",
+    "reason": "Every deployment that does not have a traffic cutover plan is a deployment that changes everything at once."
+  },
+  {
+    "no": "Not in any conceivable way.",
+    "reason": "The test environment that shares infrastructure with production is not a test environment."
+  },
+  {
+    "no": "Not in any imaginable way.",
+    "reason": "If the team has no on-call rotation, the person who built the system is always on-call."
+  },
+  {
+    "no": "Not in any possible way.",
+    "reason": "Every feature that is off by default is a feature that users have to discover, and most users will not discover it."
+  },
+  {
+    "no": "Not in the slightest.",
+    "reason": "The code that was written to be fast rather than correct is incorrect."
+  },
+  {
+    "no": "Not in the least.",
+    "reason": "If the incident is resolved but the customer does not know it is resolved, the incident is still ongoing from the customer's perspective."
+  },
+  {
+    "no": "Not in the least bit.",
+    "reason": "Every ORM that generates a query the developer would not write manually is a query the developer should understand before running."
+  },
+  {
+    "no": "Not one iota.",
+    "reason": "The service that returns paginated results but has no cursor is a service where 'next page' means 'same data you already have, offset by one.'"
+  },
+  {
+    "no": "Not one whit.",
+    "reason": "If the load balancer does not account for service capacity, it will route traffic to services that cannot handle it."
+  },
+  {
+    "no": "Not one jot.",
+    "reason": "Every time a decision is made to avoid a difficult conversation, the difficult conversation is postponed, not cancelled."
+  },
+  {
+    "no": "Not one scintilla.",
+    "reason": "The codebase that is written in three different styles was maintained by three different teams with no shared conventions."
+  },
+  {
+    "no": "Not a whit.",
+    "reason": "If the system cannot be debugged without deploying a debug build, debugging in production will require a deployment."
+  },
+  {
+    "no": "Not a jot.",
+    "reason": "Every time the same mistake is made by two different engineers, the environment that produced the mistake has not been fixed."
+  },
+  {
+    "no": "Not a scrap.",
+    "reason": "The team that does not celebrate small wins will not notice when the wins stop coming."
+  },
+  {
+    "no": "Not a trace.",
+    "reason": "If the session store is cleared during a deployment, every user is logged out during every deployment."
+  },
+  {
+    "no": "Not a whisper.",
+    "reason": "Every hardcoded sleep in production code is an admission that the system does not know when the condition it is waiting for will be true."
+  },
+  {
+    "no": "Not a shadow of a chance.",
+    "reason": "The rollout that cannot be paused mid-way cannot be stopped when problems are discovered mid-way."
+  },
+  {
+    "no": "Not a ghost of a chance.",
+    "reason": "If the code cannot be explained by the person who wrote it a week later, the code was not written to be understood."
+  },
+  {
+    "no": "Not a shred of a chance.",
+    "reason": "Every request that carries more data than the receiver will use is a request paying a serialization and network tax it did not need to pay."
+  },
+  {
+    "no": "Not a dog's chance.",
+    "reason": "The deployment that has never failed is either perfectly designed or has never been pushed hard enough to fail."
+  },
+  {
+    "no": "Not a cat in hell's chance.",
+    "reason": "If the CI job has never been triggered by a real change that broke something, it has not been tested as a safety net."
+  },
+  {
+    "no": "Not a Chinaman's chance.",
+    "reason": "Every queue that is not monitored for consumer lag is a queue that could be hours behind without anyone knowing."
+  },
+  {
+    "no": "Impossible.",
+    "reason": "The product that requires a demo to sell is a product whose value is not self-evident to users."
+  },
+  {
+    "no": "Utterly impossible.",
+    "reason": "If the service depends on a clock being synchronized, and the clock drifts, the service will behave incorrectly in ways that are hard to detect."
+  },
+  {
+    "no": "Completely impossible.",
+    "reason": "Every API that wraps another API and adds no value is a layer of indirection with a maintenance cost."
+  },
+  {
+    "no": "Entirely impossible.",
+    "reason": "The review process that takes longer than the feature takes to build is not helping the feature. It is holding it."
+  },
+  {
+    "no": "Wholly impossible.",
+    "reason": "If the team writes specs that nobody reads and nobody enforces, the team is doing the work of writing specs and getting none of the benefit."
+  },
+  {
+    "no": "Totally impossible.",
+    "reason": "Every service that cannot handle a duplicate request will produce duplicate side effects when requests are retried."
+  },
+  {
+    "no": "Thoroughly impossible.",
+    "reason": "The product that has not had a major bug in a year either has exceptional quality or has very few users."
+  },
+  {
+    "no": "Fundamentally impossible.",
+    "reason": "If the on-call rotation includes engineers who did not write the code they are on-call for, the runbooks must be comprehensive."
+  },
+  {
+    "no": "Structurally impossible.",
+    "reason": "Every place where the absence of data is represented by a magic value instead of null is a place where null should have been used."
+  },
+  {
+    "no": "Logically impossible.",
+    "reason": "The team that has not written down its values will apply different values in different situations."
+  },
+  {
+    "no": "Practically impossible.",
+    "reason": "If the pipeline takes twenty minutes to produce a container image, the feedback loop for infrastructure changes is twenty minutes long."
+  },
+  {
+    "no": "Theoretically impossible.",
+    "reason": "Every time a developer says 'it will never happen in practice,' they are making a bet with the production environment."
+  },
+  {
+    "no": "Physically impossible.",
+    "reason": "The bug that only appears at scale cannot be reproduced locally and therefore cannot be debugged locally."
+  },
+  {
+    "no": "Technically impossible.",
+    "reason": "If the service cannot tell you how many requests it has processed, it cannot tell you whether it is working."
+  },
+  {
+    "no": "Mathematically impossible.",
+    "reason": "Every time you abstract away a detail you do not understand, you have not removed the complexity. You have moved it to a place where it is harder to find."
+  },
+  {
+    "no": "Categorically impossible.",
+    "reason": "The team that does not rotate engineers across services will have uneven knowledge distribution and uneven bus factor."
+  },
+  {
+    "no": "Absolutely impossible.",
+    "reason": "If the migration script runs successfully but leaves orphaned records, the migration is incomplete."
+  },
+  {
+    "no": "Demonstrably impossible.",
+    "reason": "Every monolith that was decomposed into microservices before the domain was fully understood is now a distributed monolith."
+  },
+  {
+    "no": "Provably impossible.",
+    "reason": "The checklist that has never been fully completed is not a checklist. It is a list of aspirations."
+  },
+  {
+    "no": "Empirically impossible.",
+    "reason": "If the service uses optimistic locking but never handles lock conflicts, it silently drops updates when conflicts occur."
+  },
+  {
+    "no": "Verifiably impossible.",
+    "reason": "Every team that rewards the engineer who fixes the fire forgets to ask who started it."
+  },
+  {
+    "no": "Definitively impossible.",
+    "reason": "The product that tracks acquisition but not retention does not know whether it is growing or cycling through users."
+  },
+  {
+    "no": "Conclusively impossible.",
+    "reason": "If the container restarts on crash without alerting, the crash is being hidden from the people who should know about it."
+  },
+  {
+    "no": "Irrefutably impossible.",
+    "reason": "Every field that is marked as required in the UI but optional in the database is a data integrity guarantee that only exists in one place."
+  },
+  {
+    "no": "Incontrovertibly impossible.",
+    "reason": "The team that cannot describe what a successful quarter looks like cannot recognize one when it happens."
+  },
+  {
+    "no": "Unambiguously impossible.",
+    "reason": "If the service discovery mechanism fails, all services that depend on it fail simultaneously."
+  },
+  {
+    "no": "Indisputably impossible.",
+    "reason": "Every pipeline that does not have a way to be manually triggered cannot be reliably reproduced outside of its normal schedule."
+  },
+  {
+    "no": "Incontestably impossible.",
+    "reason": "The API key stored in the mobile app binary is not a secret. It is a secret that is easier to find with a hex editor."
+  },
+  {
+    "no": "Unquestionably impossible.",
+    "reason": "If the system does not enforce its own invariants, the invariants will eventually be violated."
+  },
+  {
+    "no": "No way around it.",
+    "reason": "Every build that does not include a timestamp or commit hash in its output cannot be traced back to its source."
+  },
+  {
+    "no": "No way out of it.",
+    "reason": "The team that measures success by tickets closed rather than problems solved will close tickets efficiently while solving problems slowly."
+  },
+  {
+    "no": "No way through it.",
+    "reason": "If the test environment has never been used to verify a rollback, the rollback procedure has not been practiced."
+  },
+  {
+    "no": "No way around this one.",
+    "reason": "Every manual approval step that is never declined is a step that provides no value and only delay."
+  },
+  {
+    "no": "No escaping it.",
+    "reason": "The service that trusts its own database to be correct will fail silently when the database contains unexpected data."
+  },
+  {
+    "no": "No avoiding it.",
+    "reason": "If the application cannot gracefully handle being restarted mid-request, it cannot be safely restarted."
+  },
+  {
+    "no": "No getting around it.",
+    "reason": "Every place where the code handles a null by converting it to zero is a place that has hidden a missing value as a present value."
+  },
+  {
+    "no": "No getting past it.",
+    "reason": "The system that cannot be monitored externally can only be diagnosed from within, which means the diagnosis tools go down with the system."
+  },
+  {
+    "no": "No going back.",
+    "reason": "If the service does not expose its configuration at runtime, its behavior in production cannot be verified without reading the source code."
+  },
+  {
+    "no": "No turning back.",
+    "reason": "Every silent failure is a loud failure that has been given privacy it does not deserve."
+  },
+  {
+    "no": "No backtracking.",
+    "reason": "The architecture that was designed to last five years is five years away from being replaced."
+  },
+  {
+    "no": "No retreating.",
+    "reason": "If the team cannot agree on the architecture, the code will express the disagreement as inconsistency."
+  },
+  {
+    "no": "No giving up ground.",
+    "reason": "Every service that has no defined maximum throughput will find its maximum throughput discovered by an incident."
+  },
+  {
+    "no": "No conceding.",
+    "reason": "The migration that was planned for hours but took days had unknowns that were not surfaced during planning."
+  },
+  {
+    "no": "No capitulating.",
+    "reason": "If the code was working before your change and is broken after, your change broke it. The environment is not to blame."
+  },
+  {
+    "no": "No yielding.",
+    "reason": "Every asynchronous operation that does not provide feedback leaves the user wondering whether it is running or has already failed."
+  },
+  {
+    "no": "No surrender.",
+    "reason": "The product that has more settings than the average user will change is a product that chose flexibility over clarity."
+  },
+  {
+    "no": "No quarter.",
+    "reason": "If the system has been running for two years and nobody knows its steady-state memory usage, the system has not been baselined."
+  },
+  {
+    "no": "Nope, not this.",
+    "reason": "Every endpoint that has no authentication except being on an internal network trusts the network more than it trusts the endpoint."
+  },
+  {
+    "no": "Nah, not that.",
+    "reason": "The product that cannot be rolled back after a breaking change has made a one-way commitment to every user."
+  },
+  {
+    "no": "Nah, not this either.",
+    "reason": "If the test suite cannot be run in isolation, the tests are coupled to the environment in ways that will produce false results."
+  },
+  {
+    "no": "Nope, none of that.",
+    "reason": "Every code path that is only exercised during disaster recovery has only been tested when a disaster was already in progress."
+  },
+  {
+    "no": "Nah, none of this.",
+    "reason": "The feature that works for the happy path and fails ungracefully on error has not been finished."
+  },
+  {
+    "no": "Nope, not a chance.",
+    "reason": "If the system cannot process a message it has never seen before, it is not handling the general case."
+  },
+  {
+    "no": "Nope, not at all.",
+    "reason": "Every dependency that is only used in one function is a dependency for one function's convenience."
+  },
+  {
+    "no": "Nope, not remotely.",
+    "reason": "The endpoint that does not distinguish between a missing resource and an unauthorized resource is leaking information about what exists."
+  },
+  {
+    "no": "Nope, not even close.",
+    "reason": "If the team has never deliberately practiced a major incident response, it has never discovered how its communication breaks down under pressure."
+  },
+  {
+    "no": "Nah, not by a long shot.",
+    "reason": "Every place in the code where you have to remember to do something is a place that will eventually be forgotten."
+  },
+  {
+    "no": "Nope, not by any stretch.",
+    "reason": "The estimate that was given without asking about the requirements is a number, not an estimate."
+  },
+  {
+    "no": "Nah uh.",
+    "reason": "If the code relies on exception handling for normal control flow, exceptions are no longer exceptional."
+  },
+  {
+    "no": "Nope uh.",
+    "reason": "Every shared staging environment is an environment where two engineers can break each other's tests."
+  },
+  {
+    "no": "No uh uh.",
+    "reason": "The library that solves exactly your problem and was last updated four years ago is a library that solved exactly someone else's problem four years ago."
+  },
+  {
+    "no": "Mmm, no.",
+    "reason": "If the product cannot be described in one sentence that a non-technical person would understand, the product has a positioning problem."
+  },
+  {
+    "no": "Mmm, nope.",
+    "reason": "Every API that uses different naming conventions in different endpoints was built by different teams who did not talk to each other."
+  },
+  {
+    "no": "Mmm, nah.",
+    "reason": "The system that cannot be restarted without losing work has confused availability with durability."
+  },
+  {
+    "no": "Mm-mm.",
+    "reason": "If the feature flag is evaluated at build time instead of runtime, it requires a deployment to change."
+  },
+  {
+    "no": "Mm-mm, no.",
+    "reason": "Every cache miss that results in a thundering herd is a cache that was not designed for its failure mode."
+  },
+  {
+    "no": "Mm-mm, nope.",
+    "reason": "The product that is more complex than the problem it solves has become the problem."
+  },
+  {
+    "no": "Nein, wirklich nicht.",
+    "reason": "If the service cannot start because a downstream dependency is down, it has made startup a distributed operation."
+  },
+  {
+    "no": "No, de verdad.",
+    "reason": "Every codebase that cannot be understood in isolation from the people who built it has a knowledge problem, not a complexity problem."
+  },
+  {
+    "no": "Non davvero.",
+    "reason": "The sprint that has no bugs in it is a sprint that found no bugs, which is not the same thing."
+  },
+  {
+    "no": "Nao mesmo.",
+    "reason": "If the application does not handle clock skew between nodes, it will produce incorrect results on the nodes where time is wrong."
+  },
+  {
+    "no": "Verkligen nej.",
+    "reason": "Every time you ship something you are not proud of because the deadline required it, you have made a bet that you will have time to fix it later."
   }
 ]

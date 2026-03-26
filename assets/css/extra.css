@@ -3,3 +3,28 @@
   top: 0px;
   right: 0px;
 }
+
+#no-result {
+  background: #3B3E48;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  margin-top: 1rem;
+}
+
+#no-again {
+  display: block;
+  margin: 1rem auto 0;
+  padding: 0.5rem 1.25rem;
+  background: hsl(172, 99%, 26%);
+  color: hsl(204, 28%, 93%);
+  border: none;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+#no-again:hover {
+  background: hsl(172, 99%, 32%);
+}
