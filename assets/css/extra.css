@@ -28,3 +28,13 @@
 #no-again:hover {
   background: hsl(172, 99%, 32%);
 }
+
+.no-permalink {
+  font-size: 0.8rem;
+  color: hsl(204, 10%, 60%);
+  text-decoration: none;
+}
+
+.no-permalink:hover {
+  color: hsl(204, 28%, 80%);
+}
